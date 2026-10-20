@@ -49,6 +49,6 @@ export function prefixHtml(html, prefix) {
 }
 
 // Rebuild from source, never from previously prefixed output.
-export async function writePrefixedCss(source, output, prefix) {
-  await writeFile(output, prefixCss(await readFile(source, 'utf8'), prefix));
+export async function writePrefixedCss(source, output, prefix, transform = (css) => css) {
+  await writeFile(output, prefixCss(transform(await readFile(source, 'utf8')), prefix));
 }

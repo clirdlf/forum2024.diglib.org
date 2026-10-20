@@ -1,0 +1,3781 @@
+{
+  "policy": {
+    "generator": "@11ty/eleventy-img@7.0.0",
+    "version": 1,
+    "widths": [480, 960, 1440, 1920, "auto"],
+    "formats": ["avif", "webp"],
+    "avif": { "quality": 50, "effort": 4 },
+    "webp": { "quality": 78 },
+    "minimumWidth": 600,
+    "minimumBytes": 30720
+  },
+  "images": {
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-105-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-scaled.jpg",
+      "sourceSha256": "69daa3bb35dc9cd54f7ad31b7f1e4b14609852b59405dca0c0c330c0ede8cb28",
+      "originalSha256": "69daa3bb35dc9cd54f7ad31b7f1e4b14609852b59405dca0c0c330c0ede8cb28",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13231,
+            "sha256": "a4a1915620987abbbf32b92033067604bad4ff052cb329f77a64eb4de863ad4c"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 37155,
+            "sha256": "338711e3ebff67232ba490567e6072ab650e98b6555dc3e2516ea14bcab946e5"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 69099,
+            "sha256": "c9c9142f6aac75d353156c85a0963db3a67ec3b90baa0e373cae7ee9d4fd5f8e"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 106698,
+            "sha256": "b729d82af5d28a0d1a6053ce7102ad58a033b8bcc30b308f3a21c4fc7eeb5e3e"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 176585,
+            "sha256": "22a96adc57470c0198a251f98de67a118831afcd70450526f7e146b502265982"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 21756,
+            "sha256": "e5732d0cceb6069e3c1bf6e261df7a27fb3c22b5031d0423118a430236e875f5"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 64280,
+            "sha256": "e8c0e83936dac759f58d3652bbaae6628645b44609fd6c15fbc57593feebf8a7"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 114642,
+            "sha256": "08edfd916d6862eb95256b59649b7ec21f005fb2965a95f64a6e58c02ed8359f"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 177572,
+            "sha256": "3419454a8634ad9d0b564c1c7611724bf57412814b9be57bb8434001c10b5ab8"
+          },
+          {
+            "url": "/assets/images/69daa3bb35dc9cd5-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 273850,
+            "sha256": "189a0d54e01c67687f09da4e508c0c3eb0fa8e242d02b1a6048786451a76bf4b"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg",
+      "sourceSha256": "7798b32b156476a59f0cca84d02952f67b095be3d32b42cae2d004a8370c2afc",
+      "originalSha256": "7798b32b156476a59f0cca84d02952f67b095be3d32b42cae2d004a8370c2afc",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9001,
+            "sha256": "ba04cb9be7f0408a1da7773dd8639cd385cb6ab1de2e60f5279678004f7b6079"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 24009,
+            "sha256": "9eb11bafde3ea6dfe7790e85c312503d9ae23a266189759338dc4e244ff7daf5"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 42729,
+            "sha256": "39b2d101f9bef4645806e5dc279b58856477bc2dcac874c84f7132878e1cbb4c"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 62462,
+            "sha256": "0d3bf01fb499db02b7bc5eb288039b46ce9cf2e68a81182591217558cd0f6253"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 97697,
+            "sha256": "969b06a60a14dabcf650b11fa6481b87b850b46a45aae43d5f3ebcc007a8af2e"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 14346,
+            "sha256": "3dbe717979ee4d36b76fac75f060b4a3adecdb46e72fcdf8bae8e2ca8fef5ddc"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 39766,
+            "sha256": "1227ed6ccc8ae6a66e4575fc599ce4ff2f64868b6eecff375e7b716488309a9f"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 68468,
+            "sha256": "ddd68c3907f199d820ab213059fcaf5ff8066842f6d0f247b53fe939560c9108"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 100392,
+            "sha256": "19fbaa1ecff8f0fcaf733a65c582131dca1937823cc63708a5559d1acc602778"
+          },
+          {
+            "url": "/assets/images/7798b32b156476a5-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 154870,
+            "sha256": "3b2f49554f405aaef0e5cf83a76dc56652af5e2043bf51e4131df1b9cf785ab1"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-141-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
+      "sourceSha256": "b258da329e451a6ae3966a821d6091ac4347a203ebc71ce7af7b12c102f26a81",
+      "originalSha256": "aeaf82a16c2135d69ae57138a55a255b77fef34b527eaad5c640a25bdaf81989",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 21540,
+            "sha256": "64d8163a09bc5af197d85813f1c40e95f12b5deca3cb762992c87963a3d2a6cf"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 61628,
+            "sha256": "293ac74851fd8d0769d35c00a49c5dedad9f5891b2f8b1d063d6ba215cb008cd"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 106063,
+            "sha256": "d65363716db8c15b3da1eea0c68ce7fee43d8839045a68fc3a02194ac73541c3"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 152286,
+            "sha256": "699757f73fc67ee1362625cf0603d5926d03f2189cfc8c1e4a7f0b7338dd3e05"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 236538,
+            "sha256": "1fb598c0312c231e7d231e5e9a67b75b85954f3bbef3d28e178d1d0e5a3dbab0"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 38178,
+            "sha256": "d98c651480608c41c0d472d349b7587ffb81fe887429d737dbe698e955041461"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 116338,
+            "sha256": "a4c9c3483a7433eaf47b93b554d9b8f9487bd65cd47602cb0db7c05afc7ee9b8"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 200932,
+            "sha256": "a16a4284160c1565eea5660b60f91c48960b47904c2e721ac7476ea02c09a2ca"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 295288,
+            "sha256": "cae65adaebe7c68e92f76fe3879d9e1158c867a09f32ebc492306897edd020ab"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 423468,
+            "sha256": "d18856496ec1e2e57ee764f0af15031dc9e98a310834ec5977aed9faef3af2bc"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
+      "sourceSha256": "b258da329e451a6ae3966a821d6091ac4347a203ebc71ce7af7b12c102f26a81",
+      "originalSha256": "b258da329e451a6ae3966a821d6091ac4347a203ebc71ce7af7b12c102f26a81",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 21540,
+            "sha256": "64d8163a09bc5af197d85813f1c40e95f12b5deca3cb762992c87963a3d2a6cf"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 61628,
+            "sha256": "293ac74851fd8d0769d35c00a49c5dedad9f5891b2f8b1d063d6ba215cb008cd"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 106063,
+            "sha256": "d65363716db8c15b3da1eea0c68ce7fee43d8839045a68fc3a02194ac73541c3"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 152286,
+            "sha256": "699757f73fc67ee1362625cf0603d5926d03f2189cfc8c1e4a7f0b7338dd3e05"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 236538,
+            "sha256": "1fb598c0312c231e7d231e5e9a67b75b85954f3bbef3d28e178d1d0e5a3dbab0"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 38178,
+            "sha256": "d98c651480608c41c0d472d349b7587ffb81fe887429d737dbe698e955041461"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 116338,
+            "sha256": "a4c9c3483a7433eaf47b93b554d9b8f9487bd65cd47602cb0db7c05afc7ee9b8"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 200932,
+            "sha256": "a16a4284160c1565eea5660b60f91c48960b47904c2e721ac7476ea02c09a2ca"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 295288,
+            "sha256": "cae65adaebe7c68e92f76fe3879d9e1158c867a09f32ebc492306897edd020ab"
+          },
+          {
+            "url": "/assets/images/b258da329e451a6a-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 423468,
+            "sha256": "d18856496ec1e2e57ee764f0af15031dc9e98a310834ec5977aed9faef3af2bc"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-148-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-148-scaled.jpg",
+      "sourceSha256": "f9f58ae827810ede988f49542da2274cedbf9d954d5171dabaef9503f82970ff",
+      "originalSha256": "f9f58ae827810ede988f49542da2274cedbf9d954d5171dabaef9503f82970ff",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8549,
+            "sha256": "32c040750a9e8afbf2e5d417230058c6621054645c596c2259e0d278b81f4800"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 23269,
+            "sha256": "1919f745b05935cdf320f9e74ec0ebc02a4bdf9af8a0c787f198754c2fb52e1c"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 41263,
+            "sha256": "9b3aff164bc894c398138e066800aeee5faf009b0734f71bd5c102e239a5c104"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 62515,
+            "sha256": "dd168f5c6847385377090f1ba1ee6e94fe3de77bfac5bc0c35e5a2b5d79618af"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 102829,
+            "sha256": "b949548ad4d0226c294156dfcdeb39a95794fca136766786f0fa28427d0f8c97"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 15012,
+            "sha256": "3f840504b7008a8fd2006d2381a76742a4239606abd8f274cc511f18d2ff600c"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 40704,
+            "sha256": "086b9a6932c6cdba78863dec0a6990d13c14689e841904f27da29fdae4949280"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 70684,
+            "sha256": "3334826a731c9c47ec470cae7847a60488280ccfc1fd78abc0c56acfcb05627b"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 105478,
+            "sha256": "1ccb9c1525bec2944ce0903ef2acc697bc28e1e1f2810c30f641f4ec942af2d1"
+          },
+          {
+            "url": "/assets/images/f9f58ae827810ede-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 169398,
+            "sha256": "d0c48b0300b028c6d9a7eeb7a8a6d446f6eccb9001c18fcdf4cab2a3f1169585"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-158-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
+      "sourceSha256": "25f5099795f1fab8bd1c6250d028ab26b598003341e7d427f21a52d6b0227db7",
+      "originalSha256": "9061cfe504cde02dfe45b804f657a87b07d7cfd31528ca1dc0d9bd8c2f5de1a5",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 7307,
+            "sha256": "e04fe4819510ccf782b00732b072f38c0e3d87a8690d960c19d548a26fb6947c"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 16700,
+            "sha256": "29c2ef90cea94119eac4ed2835e637790152e61593811e1667d2a82f9b8ec65a"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 27134,
+            "sha256": "84ef955641a79a364327e82d6874bdee1c9f40b56c181d76b2fe4fefc549fdc2"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 39366,
+            "sha256": "91097b5e104a95fca42db16d05728c112fb222f5e6ab90a67ac5de97c3f99db3"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 65638,
+            "sha256": "0a764c4016a115b6c8a5792f6223661437516950ffcb53b049efc0ce8706a77f"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 11004,
+            "sha256": "9648d462bff419362270c5d6150ebe27f7a999233b13c86b8c6cb56627120593"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 24960,
+            "sha256": "e784cd8fa01275bee8052bb7f3605bca368b508cd0128b962ed8f1250d62d729"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 41770,
+            "sha256": "af685657484ec32f15dca1f490e53c7a2f31eff090658c6645578adbaa34572b"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 61916,
+            "sha256": "c764204d4a325704f4f10d56f75fee420fb473caf3c15f3067f1824c81cb64bb"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 103526,
+            "sha256": "c6799f1fecfbb3b128e717e50d33bf1e1dd70a0c3888e9386525886ac81e42d8"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
+      "sourceSha256": "25f5099795f1fab8bd1c6250d028ab26b598003341e7d427f21a52d6b0227db7",
+      "originalSha256": "25f5099795f1fab8bd1c6250d028ab26b598003341e7d427f21a52d6b0227db7",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 7307,
+            "sha256": "e04fe4819510ccf782b00732b072f38c0e3d87a8690d960c19d548a26fb6947c"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 16700,
+            "sha256": "29c2ef90cea94119eac4ed2835e637790152e61593811e1667d2a82f9b8ec65a"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 27134,
+            "sha256": "84ef955641a79a364327e82d6874bdee1c9f40b56c181d76b2fe4fefc549fdc2"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 39366,
+            "sha256": "91097b5e104a95fca42db16d05728c112fb222f5e6ab90a67ac5de97c3f99db3"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 65638,
+            "sha256": "0a764c4016a115b6c8a5792f6223661437516950ffcb53b049efc0ce8706a77f"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 11004,
+            "sha256": "9648d462bff419362270c5d6150ebe27f7a999233b13c86b8c6cb56627120593"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 24960,
+            "sha256": "e784cd8fa01275bee8052bb7f3605bca368b508cd0128b962ed8f1250d62d729"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 41770,
+            "sha256": "af685657484ec32f15dca1f490e53c7a2f31eff090658c6645578adbaa34572b"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 61916,
+            "sha256": "c764204d4a325704f4f10d56f75fee420fb473caf3c15f3067f1824c81cb64bb"
+          },
+          {
+            "url": "/assets/images/25f5099795f1fab8-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 103526,
+            "sha256": "c6799f1fecfbb3b128e717e50d33bf1e1dd70a0c3888e9386525886ac81e42d8"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg",
+      "sourceSha256": "491e930f60b599a97f4238233cab7a25537f2ee70dfad088fa401b7e9c22c31d",
+      "originalSha256": "491e930f60b599a97f4238233cab7a25537f2ee70dfad088fa401b7e9c22c31d",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 4999,
+            "sha256": "b713cc0a5987caa5563c88ee303ae955bd4e86d3955fd691ae045a8635e7e71c"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 11500,
+            "sha256": "4043f3c3208396315548e29bc587e846379b02250f4102f62d46c64dc2416113"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 18764,
+            "sha256": "de2197da761b31e48bbacb2ca9834ecee533e662b73ab74b47cb3c672845f251"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 26947,
+            "sha256": "77bf242405e6d6510ee1b2aa774a51fabce5395fe07e895575264f3c536f3c0f"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 41166,
+            "sha256": "e8a484484303e215d9723c8b742f961fac4c26ced6c668f763c513ec942687ae"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 6552,
+            "sha256": "5418cab4ce3d68a7f246ea63142c934117e1b69bf719bc952fc682b960fd0b21"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 16326,
+            "sha256": "ca4aff1176e57eda43df33d099c407ee3fd551aaa7031f4105dbc1699c6a3cb8"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 27344,
+            "sha256": "85b97be4462adde1544ebf9fc74beb726dd59250f55c41f7fbcf87ae003469b5"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 40618,
+            "sha256": "7a588d7eaf395cf7a0546881413e809dfedbb865db07630be744b80eccad2270"
+          },
+          {
+            "url": "/assets/images/491e930f60b599a9-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 61596,
+            "sha256": "28fc4a73765a385bb167a06a23a1778752a42899734f08451bb808b23a92a23e"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-42-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-42-scaled.jpg",
+      "sourceSha256": "6ba5a7ab77320fb4130a651e65ee254c935cfa37fd8d8357b5d0d166a90b04e3",
+      "originalSha256": "6ba5a7ab77320fb4130a651e65ee254c935cfa37fd8d8357b5d0d166a90b04e3",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 16942,
+            "sha256": "1af3cc453021b0122ad4bd43a0517d745d8c54ba9535db07107e4608b8cbf550"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 42791,
+            "sha256": "fc36bfb346f87f0496f38f7cab387a97cbfa0e4f51c04bd45bfd1b9865a8cdf1"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 69985,
+            "sha256": "73480131d88a67415e00a6a0fa863b2232016722f96266faedeb4886c414f31f"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 98205,
+            "sha256": "dd87e7b63869fc7a919f00ec871f47430e374414902144d5770984d1c44784bb"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 145079,
+            "sha256": "56015e8ddd7ada2ff2eade3e6dc0a76ec63cfbe3e2073591712b416d82afc5e8"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 30494,
+            "sha256": "be96559e95dfb58611828492396115cb5f271a38ed5cf039be89126ca603f634"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 75098,
+            "sha256": "44770fe553f651de901e41a1910415d82bd27ca066b25ab1619651d9704fb87e"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 121110,
+            "sha256": "d7b8f28f6797a64d438c88b2f5c282cf7fc8295d64140a45d47c9d47d91bb76b"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 173118,
+            "sha256": "fa46b61279024e4ff1f10290e87d6a7478bf6c574b8ab17dd3f90cf5582113d0"
+          },
+          {
+            "url": "/assets/images/6ba5a7ab77320fb4-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 252912,
+            "sha256": "69b5eda4a926b6e33a3f88ba6b709bdbed7a74e6957242317a219162cb0e42b4"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg",
+      "sourceSha256": "dbf8181f3db8eb9e9214ac28cc97ebc0efecbb4fb95aa483337f37dc4d1d7365",
+      "originalSha256": "dbf8181f3db8eb9e9214ac28cc97ebc0efecbb4fb95aa483337f37dc4d1d7365",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 10760,
+            "sha256": "866fd5caacc7a44bb934cd86c77c0954e853d59cfcc23905a6298ae5b3cdaac1"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 26623,
+            "sha256": "a07118d1b1d85a4f525c91ca08ae1a27bfb1006b5f8432b59952b69ed690e0a1"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 44612,
+            "sha256": "9c176d4fce9baf3cdec917520d5a6712471f8b7e743be5d717fe96719d3d385d"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 64950,
+            "sha256": "a89bc85067210aad91806688b9f030fbfc887aa218c864a2a1caf49505ca1998"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 104336,
+            "sha256": "3d86afbc2eccc500836e167de0f6afaca0e71e8f1edff0cb28ffec17a806ebbf"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 18386,
+            "sha256": "0e8b2ac475e407a822d5c899196b5ca2e39e3c53e7ba08fe18435d8debbd6096"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 44952,
+            "sha256": "e5b42a71f6e79fb38474e92cb06e3fe66937372c0c46e8f1b93bc9dc5bf707d4"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 75430,
+            "sha256": "4d8e573da56f14ddacc581d39cb6f549ef1eab3a8427b2d9e0516d309593dbc3"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 113060,
+            "sha256": "313048d8336fbb24b23adcca564cca80341fd313c0938e1ea95c69a55256dab7"
+          },
+          {
+            "url": "/assets/images/dbf8181f3db8eb9e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 185480,
+            "sha256": "33a2c3f16f534fec44113fd487237502d6bbcad79ea8ccd294d098962e680f8c"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-58-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-58-scaled.jpg",
+      "sourceSha256": "ece6ba7dce8da3623b9cf02b7dda4d7743133bff2908950041de9a3b0e2af6d9",
+      "originalSha256": "ece6ba7dce8da3623b9cf02b7dda4d7743133bff2908950041de9a3b0e2af6d9",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9518,
+            "sha256": "c87d73f8308e166c555248a426e69feb9ac9c5fa20dcc1c21fe9c5cb8558ef7e"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 24863,
+            "sha256": "e348f639c0f4761a7ab00af66c9fff9a9922f2ce1114fd46d32688b165d80fb3"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 42247,
+            "sha256": "b03bc966d54ce1ed311bce52066f8452e6faac60f9dc4356ae7d0ab7b99f10bb"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 64863,
+            "sha256": "138258249b7ffd1c3818d87f68da5d025824293c308f0c13d145ffcbe6f5f98b"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 128108,
+            "sha256": "2282ca6dfd15f9c017637dfe4ba5a8da8bce75e103b82d08edc543344acf849e"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 16066,
+            "sha256": "a68fec29df8804be179974389f8802248e0a56e631980061d2c51915702ba1fc"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 48572,
+            "sha256": "b0cabc7ca2be31ef076bd161f539cc2691d772628441be9e48c50facfb89c9d8"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 91594,
+            "sha256": "8abb52833661aa106633aff38caa47042028273fa50b70bf21602bcf95288feb"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 144536,
+            "sha256": "0b0b8e21a44377123464d0d648b6b80ca684c27b794fa42809c54c70494f7b13"
+          },
+          {
+            "url": "/assets/images/ece6ba7dce8da362-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 242138,
+            "sha256": "ee1acfd93def012b91ed28260d6194eec55777dcfc5946ff6330d40a16bb76bd"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg",
+      "sourceSha256": "d02171b86469779f3dd76c5e1315d8140943fa1e48f87c41f7458b68026eb0e8",
+      "originalSha256": "d02171b86469779f3dd76c5e1315d8140943fa1e48f87c41f7458b68026eb0e8",
+      "width": 1024,
+      "height": 683,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 7006,
+            "sha256": "d2f4965a575d44ae1eebcf53774f798f8b66ce59b07b0069273ae4d6feb99d19"
+          },
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 16804,
+            "sha256": "aef3f13995b0f744e98c9c2f18381e499d274fea107a0ca2083839d9a5cf22fc"
+          },
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-1024.avif",
+            "width": 1024,
+            "height": 683,
+            "bytes": 19410,
+            "sha256": "241cec948ae736b02afac8097168869a3a7f285a59951f5d1fb1e073864a5bfa"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 9708,
+            "sha256": "4637fc91be983c41489dd30893cdcf6d06d2c960d2f14f011e37674e9f9f233b"
+          },
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 22518,
+            "sha256": "a49428442234ee77a57ba0b5d439bb717f100dba04a9b1904a4a20e5d9e5d5e8"
+          },
+          {
+            "url": "/assets/images/d02171b86469779f-bdbdb24e-1024.webp",
+            "width": 1024,
+            "height": 683,
+            "bytes": 25172,
+            "sha256": "faeaf265ab59f0a9a8192436436b0503beb572651f23ba39f760ba2a3e77d9fc"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-11-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-11-scaled.jpg",
+      "sourceSha256": "449bf1f188738a33dfdd2895a075e97b666725f6dda43395de460addb71f88d5",
+      "originalSha256": "449bf1f188738a33dfdd2895a075e97b666725f6dda43395de460addb71f88d5",
+      "width": 2560,
+      "height": 1700,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 318,
+            "bytes": 17329,
+            "sha256": "ed39c7f836f9daa168bf9ca825e37164ef8c860a43467fcb0b3fba0fb8d16151"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 637,
+            "bytes": 50191,
+            "sha256": "5aa522af39496975846ce017c86063718123b656495275d367b0d398ccd430d2"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 956,
+            "bytes": 88300,
+            "sha256": "4af53fafdd3e99aa6ca94117e4fd61787b89f11be9f8007f885adb33e0ce1272"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1275,
+            "bytes": 131542,
+            "sha256": "c9082ee1f7dc672ff3c6fae56bafc83a7f900c495c8381eb20dcde9bccf0d3f8"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1700,
+            "bytes": 201517,
+            "sha256": "5905acb9d9b9f8a8cd23e5e203c09d691670b4aabf958596970ec0d58f67069a"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 318,
+            "bytes": 30408,
+            "sha256": "8af41a4ecd256c25479c61283c4138513f31914d5a8fa3ecde2682758d945ba8"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 637,
+            "bytes": 88292,
+            "sha256": "03518025debf79db75f77142ead793372ace3a96ce9785024a53f170608b6bc5"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 956,
+            "bytes": 151354,
+            "sha256": "2652b9af081ccec60020c78216bbe77e3397f8e3c856aebb55c1d9c9aab0e6c3"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1275,
+            "bytes": 221306,
+            "sha256": "71491be5077a0e678928f13c51340749687b5ff4a769588905ba79d0c47b52e5"
+          },
+          {
+            "url": "/assets/images/449bf1f188738a33-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1700,
+            "bytes": 321904,
+            "sha256": "7c31256a4324d7b548a5ba77469fce984a5b8fe353c8e73c411578ff07321a96"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg",
+      "sourceSha256": "fc7b74f359173f60c2c70ae7944ae2bad4ac443e5f9757966a1ac1aa9ef84372",
+      "originalSha256": "fc7b74f359173f60c2c70ae7944ae2bad4ac443e5f9757966a1ac1aa9ef84372",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 10706,
+            "sha256": "79b3dc67431c92b4a4077755054e0ed529db95f7c9b80572d6545ccfacb919f3"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 25855,
+            "sha256": "a938664337f90e285bc1761b97d0601aa43cc2fd8e9a2fef383f172b6f298a1b"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 43269,
+            "sha256": "1d775f4321f71b0c03709d79c63e97e4bfdfd138535a5b84b1de3dcedb793ada"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 63865,
+            "sha256": "1c74ec4d10e87983769dd064bd21f33df7699fc6c915b9739105e49e7f55bd85"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 102883,
+            "sha256": "1b003404f6334351dd93c2e6898e2aee50c8a3a4c0c0944b2da94984fa8422b7"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 17930,
+            "sha256": "90008286fd00d2429df332b4e7e38d11691813bf675be13828fbd08f84f90cbe"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 42908,
+            "sha256": "e230bbdb7355ebab2302b5f0c635c55d6ebcb5fb07bf045f603a3e883a8ee982"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 71766,
+            "sha256": "71a52f9dcd01d7bba554db7d708fccb10bc6763230460e3880f231fe908f9c9f"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 106690,
+            "sha256": "c1f4c44c0f9a7f355fdaff0baf7cdec7e751eb47150c268052b438f1831feff1"
+          },
+          {
+            "url": "/assets/images/fc7b74f359173f60-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 165086,
+            "sha256": "359b10d89da246e79730bd6b480642e2a459588dde03f347eae4f003116f2dba"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg",
+      "sourceSha256": "f5a436592dd169201f074e82bcdc52c9efb526a393f051f621270de5626d4b4e",
+      "originalSha256": "f5a436592dd169201f074e82bcdc52c9efb526a393f051f621270de5626d4b4e",
+      "width": 1024,
+      "height": 683,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9333,
+            "sha256": "59af45a8fcd175283864ad10bc6efddeb2b774e64115f0daf310db4b936e9f40"
+          },
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 27746,
+            "sha256": "93dda0953076dd9063be04a84770c11a62406e14f8f829524d4975b2994775f9"
+          },
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-1024.avif",
+            "width": 1024,
+            "height": 683,
+            "bytes": 33629,
+            "sha256": "e5e5f6339583537dfe8fefb262da30dd83019a24b3a6002664a914e9016d5eca"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 16534,
+            "sha256": "ac9865cad7cb1f85c311719ec0df8e0dbb01b043b8c697709d2f1fdacabd60bd"
+          },
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 46536,
+            "sha256": "f23d0d951b28dae942cc04efac17427ead0da0b875078159015b3ee4be8ba081"
+          },
+          {
+            "url": "/assets/images/f5a436592dd16920-bdbdb24e-1024.webp",
+            "width": 1024,
+            "height": 683,
+            "bytes": 53302,
+            "sha256": "665204916d0ca867a5a6bcfe75626ccc8358b4226117cbafe5ba45877f1f0612"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg",
+      "sourceSha256": "64e68666278b3fa2b7b5d0b418440d58111b4edd34b6b8e5b93dfcade875f2c7",
+      "originalSha256": "64e68666278b3fa2b7b5d0b418440d58111b4edd34b6b8e5b93dfcade875f2c7",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 6932,
+            "sha256": "33a6eca2c5d6968d10b4c19c2c266dc6fb5a2c997a3d2af3bb6a73e624fcbf4a"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 18094,
+            "sha256": "754082440aee5add09d539932d6374579517732eb3fd88fbcb1d413d53f1c59a"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 31590,
+            "sha256": "617be5644e0aa7c11b2f157c37b41bd62634a33c74ec394989f5261de7ecb09e"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 47144,
+            "sha256": "41866ba3e7c54eab7f2a7e3d639b742f280684049712296c849afb97befe5569"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 76085,
+            "sha256": "bbf5b453016500ac0dd66d42fae1267ef8d9d806abc1ef387b7b88d04aa9be95"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 10988,
+            "sha256": "1fd92754bfc6864c68cca6c1269b09d3c19cf22c37d488bd7c606d9265bd9dd2"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 30262,
+            "sha256": "9ec0fc70a811c73c63efa29610b14c97883d285c7da884e6320c926c24b0e4ee"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 52364,
+            "sha256": "9ecb9db8db717a3517b9e601c5171e1b0fb8207d07f2fcf55d6d080b8e807ad7"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 79822,
+            "sha256": "fdef900476dae35926870bfcd807f3ce0b12bb839805742bb7808aa4a8e113f6"
+          },
+          {
+            "url": "/assets/images/64e68666278b3fa2-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 126192,
+            "sha256": "5f1431a2b4d5edf2000e0ad44c61924382c50da6d375cb3a0b57a2e26343f7d0"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg",
+      "sourceSha256": "dadef5747e7e636c9694867b96070f7045b190c6e4c92cc148afb83df189679f",
+      "originalSha256": "dadef5747e7e636c9694867b96070f7045b190c6e4c92cc148afb83df189679f",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 20364,
+            "sha256": "9b81f3188bed29d4b0cbe0c202c67eb1530b8ea22a57c9f2fd80debef33dabe1"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 65539,
+            "sha256": "1f6bb70ce2c5bc189f6288f6d66dda75b7297a29030934f4cd3dbee0ee9951a1"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 121860,
+            "sha256": "5e4da7be6855c13ab0d86e0d0ae37a7eb5e67e90ea4817e899fe63bb24d14b65"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 186392,
+            "sha256": "47cf78c7ecb95e1b99126992937efb890122510776534aeeea7f4421264d5a87"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 301296,
+            "sha256": "6527621addb3da29bd8da25736d786160d122b2fd11692f7135eb2994bb7e440"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 37542,
+            "sha256": "1323b16a068ae79bbd60c3deeccb6f095808f12c289b4d33e843c78e6832da59"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 121722,
+            "sha256": "74624b048c41295e1e6bf197010ae0af66d076eebb11c7c05c856088a09f5010"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 228076,
+            "sha256": "e9057970ce5f3e35aee342204757bf53fc5324643522c98e26f1504dffce965b"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 351734,
+            "sha256": "a30cba3d0ba306ac64fee82664d21cbf947940b83c480b504d347b901eb8b0a0"
+          },
+          {
+            "url": "/assets/images/dadef5747e7e636c-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 554876,
+            "sha256": "ee2a3245798e58a0732dd4b6af7618765570051f6f13fcf7d6cfef4b9c165a09"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-67-1024x681.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
+      "sourceSha256": "63078b8800e5fa3278eb5f7a4835ca3177933c1157847837ed45caecaa367d03",
+      "originalSha256": "811272d5ea47ada20e798eba2bdcc26a8f81ac44bce5f0303e6793d277f06279",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 17085,
+            "sha256": "06a3fd5cea97d377c40acfcfaa18a5a094f56bb9b767a5c0d995364da5902f7e"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 52559,
+            "sha256": "e9a99d04b257fdfbe63eaafa1e03cfd1b0d2e150af5308afb5cda76ea3885826"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 94135,
+            "sha256": "b355c7b2d96495912c1cd921daa4e2cfb5df3d9d81174e9e67e4519c1de42d78"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 138780,
+            "sha256": "eda6f5226f792fa6896c441457eb289093267c9967aa42f109d8ba6fcd4b6ba5"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 211687,
+            "sha256": "bec850df7d022cb609a46d70b1d5eb155a057c7dead010899ccb22576c128f08"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 31952,
+            "sha256": "38fda1c2edf31372b80c25dc016cc75ddc6c0c864b5a1a10cba45ee105d1a624"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 97616,
+            "sha256": "063d96d326452877459479c74784986a77f1fc90d4d064b0ad83715151c9741b"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 174140,
+            "sha256": "e45e6be1b93479ac0a4d064bdafca065205eedb7271adc40a896cf48fe79bca0"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 249896,
+            "sha256": "4c6390b9be6f04839de684058b477842279c00bc8d616f3b32b1593ea6b1fa10"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 364126,
+            "sha256": "d2e4f21734f6a4ae3c39825f765b8a6f1cb1eefe6de14d75c2f6092d56d6592d"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
+      "sourceSha256": "63078b8800e5fa3278eb5f7a4835ca3177933c1157847837ed45caecaa367d03",
+      "originalSha256": "63078b8800e5fa3278eb5f7a4835ca3177933c1157847837ed45caecaa367d03",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 17085,
+            "sha256": "06a3fd5cea97d377c40acfcfaa18a5a094f56bb9b767a5c0d995364da5902f7e"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 52559,
+            "sha256": "e9a99d04b257fdfbe63eaafa1e03cfd1b0d2e150af5308afb5cda76ea3885826"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 94135,
+            "sha256": "b355c7b2d96495912c1cd921daa4e2cfb5df3d9d81174e9e67e4519c1de42d78"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 138780,
+            "sha256": "eda6f5226f792fa6896c441457eb289093267c9967aa42f109d8ba6fcd4b6ba5"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 211687,
+            "sha256": "bec850df7d022cb609a46d70b1d5eb155a057c7dead010899ccb22576c128f08"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 31952,
+            "sha256": "38fda1c2edf31372b80c25dc016cc75ddc6c0c864b5a1a10cba45ee105d1a624"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 97616,
+            "sha256": "063d96d326452877459479c74784986a77f1fc90d4d064b0ad83715151c9741b"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 174140,
+            "sha256": "e45e6be1b93479ac0a4d064bdafca065205eedb7271adc40a896cf48fe79bca0"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 249896,
+            "sha256": "4c6390b9be6f04839de684058b477842279c00bc8d616f3b32b1593ea6b1fa10"
+          },
+          {
+            "url": "/assets/images/63078b8800e5fa32-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 364126,
+            "sha256": "d2e4f21734f6a4ae3c39825f765b8a6f1cb1eefe6de14d75c2f6092d56d6592d"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-73-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-scaled.jpg",
+      "sourceSha256": "dd6d26e663b650323787fb7f075875d2cc0dffa692b037df331880444dfdf4af",
+      "originalSha256": "dd6d26e663b650323787fb7f075875d2cc0dffa692b037df331880444dfdf4af",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 14254,
+            "sha256": "41251c0d69428f89e41bca61d3f18cd0f2ff5c7532f34e08411b9913f61bff5e"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 36216,
+            "sha256": "c9a55601a0b5a3feef7f26ec268785de8bbdd63bc75a3f95d67a3d15523d1e91"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 59986,
+            "sha256": "d51a16c8840a74c709a0e993470a1d47adf6327a84395fb85b4455ecb3331eae"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 86577,
+            "sha256": "07bca6811b66befa3f3acc424d941af798e5c9cd86090c3377ac5a0f23773429"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 129566,
+            "sha256": "0acbd04508c72cd1b767e6ca2687604b39663a0044e1ccb316e2ffd7f09b75d3"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 24870,
+            "sha256": "57adf997a5d2c5a503a13595349976688590d68b01111ada8bdba57ed3439505"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 61776,
+            "sha256": "ad0559ba9fb12e45aacf5b9034675acba4ee89a0890de9d8f42dabf0a213dff4"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 99682,
+            "sha256": "94590de643abda2eb13fd890280d0ef4685bc7ed877434f6dc9421690661e673"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 141984,
+            "sha256": "3034cfb7dd3d59c920291fc845d54202d80534219881c508c777b85c11aa4ea4"
+          },
+          {
+            "url": "/assets/images/dd6d26e663b65032-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 205344,
+            "sha256": "4142393e23b7ccf582fef8e31405592a20eecba7bfad022caad44b93d14f6340"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg",
+      "sourceSha256": "9009e909db95db96efb13e5b2518bdd4e83c794fe9c2350cbaa1ff61a61b92a2",
+      "originalSha256": "9009e909db95db96efb13e5b2518bdd4e83c794fe9c2350cbaa1ff61a61b92a2",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13331,
+            "sha256": "925bc25a381a046ccf77ef6d2a81b40936ad830e6ff20659824459358961614f"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 33235,
+            "sha256": "75112a834660f5f50ffdf92b7ed3de3a4cb3533eda874fe2ca0b51d4dc84e4f6"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 56125,
+            "sha256": "0253702bd3c3cd0df2e4ccb3d82692dbae808d55deda512eb4a1d77b33c66579"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 81815,
+            "sha256": "96c499db72d71070f01a5d9c8163c438102c33908903965cc4cc20fa9d53f8e3"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 127934,
+            "sha256": "d2aaec373f128fcb64dce0ff9e6e883770136e09b4eb32122b8881e1e2ebf856"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 23764,
+            "sha256": "9a32aa5ff6c7fa33caf14f49c1f1396ddc7ed3b01feb3c693ec36b801b23889e"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 57952,
+            "sha256": "df34cfc4b4d59ee657eb5799153327256d42d340e68158f0889450d002eaa535"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 94784,
+            "sha256": "c4a8074af2ae04c3c05f8a337f5ce8d4d64e345a4ec42ba77e9c6cb147d45422"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 138740,
+            "sha256": "18192769a52659aebe40a5b2ca347c25d6d7995eeff5d14befc2634e4a10c2a2"
+          },
+          {
+            "url": "/assets/images/9009e909db95db96-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 207984,
+            "sha256": "11d05ed17206e61fa200a4d065d3f0a4025ac615638071fab9e896ab3151224b"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg",
+      "sourceSha256": "e2934adc75a7f71c57b8808f21ebdf6a0782b0f5d85161f0fa5ba000167651a9",
+      "originalSha256": "e2934adc75a7f71c57b8808f21ebdf6a0782b0f5d85161f0fa5ba000167651a9",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 12152,
+            "sha256": "e3d97bfc6e784a732a4468232506cd62625cfc69447f794507729988a1ec91a0"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 33888,
+            "sha256": "7b935e77b0680b5d6140eb9a714ab404aa96d24ac451806ba01da4ab415ad185"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 59032,
+            "sha256": "66657b5788725a56b7cb419743d87181730f4db0a13a52e763c74e7abfe9459b"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 90279,
+            "sha256": "f0f044174447b66242104eb811c44f4b35f7999728962a1284746998dbb23ef1"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 151656,
+            "sha256": "00d464f9db42760b385d754fd952db46d66e6590bb2573d74facb503fc0f9ee2"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 18906,
+            "sha256": "decb38692f11124ab7a8b9c417403e29f2a4da979604b03b139c22811ccf7629"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 50962,
+            "sha256": "89050bd9b4ea7f24dc532057e73b6323fb0ebc92e6048ed081125cf123ac275a"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 91080,
+            "sha256": "5cee89d47a47765a6b246daca36ff485c1d319cadde0b2b26f94eae6fc170a48"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 138506,
+            "sha256": "b3bda36b99f274c2547f6c98b4f20110b701d480ed5da02617ae8a97121bfa1e"
+          },
+          {
+            "url": "/assets/images/e2934adc75a7f71c-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 225532,
+            "sha256": "a04697cf81060a30bda8c1e828b7dd1cc03f604fc08e5a66506c62281915ffa4"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRW-64-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
+      "sourceSha256": "ca3a245d28cf91c44b82c3b453c5234fc942080051cdff74309fdf61dda35640",
+      "originalSha256": "5cf919057b4490889fdd12ccd59cc99b2d16ab156c6acbb3912a3ff7fa664fc5",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13746,
+            "sha256": "845c33f160da8ed50cb4ff81a588a0a3f75cb5c063042471586c502ccb4d65ea"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 38220,
+            "sha256": "a65f9f027ec624eb5e42f39568a76e2238be9c6648898ddb930cddc85209727d"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 65193,
+            "sha256": "69873d880b51b5a2543bb63f95e0546f068f16acd52c5fde593fa2b4ba6a94f9"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 94252,
+            "sha256": "19e4c86683d732f5993231c5bfa1a07a72b0f28ea060c530f44b70f55aff18be"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 147194,
+            "sha256": "344cb0dc71301ee10352fb45251e87756f9e05d22b49366998a2d86f884ee7e1"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 22102,
+            "sha256": "94d631ce130d6d8ea836a0042af550612473a0336d9df826f6d1982cc4756258"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 58982,
+            "sha256": "9cb39dd75b1bec911a4e75be2c9e176cb62942e73090bd3656293ba744e5cdb6"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 99026,
+            "sha256": "e51cba948529fbb956a51da2a2cb5023b3bc6b192f862748be6abccf6c2423dd"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 144354,
+            "sha256": "663cf0e2b7b39b28484f675825dbf7125b661cafd82a7597fc319de0dc4bb41d"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 215386,
+            "sha256": "0dc06d5dd3a8abbd770f96f11ed35f01cd9bb7260406884b805cb0c4babd19d5"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
+      "sourceSha256": "ca3a245d28cf91c44b82c3b453c5234fc942080051cdff74309fdf61dda35640",
+      "originalSha256": "ca3a245d28cf91c44b82c3b453c5234fc942080051cdff74309fdf61dda35640",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13746,
+            "sha256": "845c33f160da8ed50cb4ff81a588a0a3f75cb5c063042471586c502ccb4d65ea"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 38220,
+            "sha256": "a65f9f027ec624eb5e42f39568a76e2238be9c6648898ddb930cddc85209727d"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 65193,
+            "sha256": "69873d880b51b5a2543bb63f95e0546f068f16acd52c5fde593fa2b4ba6a94f9"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 94252,
+            "sha256": "19e4c86683d732f5993231c5bfa1a07a72b0f28ea060c530f44b70f55aff18be"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 147194,
+            "sha256": "344cb0dc71301ee10352fb45251e87756f9e05d22b49366998a2d86f884ee7e1"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 22102,
+            "sha256": "94d631ce130d6d8ea836a0042af550612473a0336d9df826f6d1982cc4756258"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 58982,
+            "sha256": "9cb39dd75b1bec911a4e75be2c9e176cb62942e73090bd3656293ba744e5cdb6"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 99026,
+            "sha256": "e51cba948529fbb956a51da2a2cb5023b3bc6b192f862748be6abccf6c2423dd"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 144354,
+            "sha256": "663cf0e2b7b39b28484f675825dbf7125b661cafd82a7597fc319de0dc4bb41d"
+          },
+          {
+            "url": "/assets/images/ca3a245d28cf91c4-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 215386,
+            "sha256": "0dc06d5dd3a8abbd770f96f11ed35f01cd9bb7260406884b805cb0c4babd19d5"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/01/CLIRM-166-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-scaled.jpg",
+      "sourceSha256": "6a83fd78c6fed9532f08f687a29b538ea67af08a836ba7300307fa0de9adf53d",
+      "originalSha256": "6a83fd78c6fed9532f08f687a29b538ea67af08a836ba7300307fa0de9adf53d",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8160,
+            "sha256": "584d3f974ec386025c77790d88e72a5b548d5bf469df390f48d1e9a16eb2df5c"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 20700,
+            "sha256": "85f9915daac5354410a698621ec0c95ddcc834195fd7c6415ff16bde28df0120"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 37463,
+            "sha256": "374ff4c0f34b1400192275d816b1113f6142d42c379866e18cd49f5d609dbee9"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 57856,
+            "sha256": "015463c7ece68555c7e0d9e6984229d5b8a0b4b5f2dfbebb73f49e0af367b8ae"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 92694,
+            "sha256": "a1a50a1817d7435a713e93f303e7cce42532884159bd5094df0c9d01a94b6077"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 12906,
+            "sha256": "196e293d061bb7c8b5ab99ea792bda697656cd07143b626bc0449e10602bf363"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 34124,
+            "sha256": "e3727193e4765465fdc52ec940889b1eaadd96a6121fccd2d1c91d2852c6efd3"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 65536,
+            "sha256": "7125fb004318c27450d5f4fd9473629a87fdb9e893a51802c548fb123e4d820b"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 98350,
+            "sha256": "31d119e2aa31c35f79588349c905ba96d5882919a2eebbced9ddff86d7043604"
+          },
+          {
+            "url": "/assets/images/6a83fd78c6fed953-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 155254,
+            "sha256": "5838e52a696693118553a68595e5fd403c39f067c379f3c8d3d5eff35eb6017e"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/01/jferretti_by_lauraferrara01.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/01/jferretti_by_lauraferrara01.jpg",
+      "sourceSha256": "03a3a1e6623fa4d11a6e07b5cf04c652e90d2f1e919cde3c62aca477d49f2573",
+      "originalSha256": "03a3a1e6623fa4d11a6e07b5cf04c652e90d2f1e919cde3c62aca477d49f2573",
+      "width": 720,
+      "height": 900,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/03a3a1e6623fa4d1-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 600,
+            "bytes": 14570,
+            "sha256": "9b19bcccfebfaaef550ef626db89c31fd2f2169b9dedbef73c37e09f4b2b07d7"
+          },
+          {
+            "url": "/assets/images/03a3a1e6623fa4d1-bdbdb24e-720.avif",
+            "width": 720,
+            "height": 900,
+            "bytes": 27929,
+            "sha256": "4cec711baecbe1da505f67e8a2fb117b57041fd02654bc81ca4b57337aebee6f"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/03a3a1e6623fa4d1-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 600,
+            "bytes": 24632,
+            "sha256": "7f00366fe6535d8936ebc3fc0d970c4102c415079ab73f082a79315cc0c4f518"
+          },
+          {
+            "url": "/assets/images/03a3a1e6623fa4d1-bdbdb24e-720.webp",
+            "width": 720,
+            "height": 900,
+            "bytes": 45454,
+            "sha256": "6191b6110025c3c18facf90b8c1261bce863d0fdd72c9d8b724652a1a8a04d24"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-scaled.jpg",
+      "sourceSha256": "1199a5a8b845051d7b055183bab901cd600ed9b49b11e29ae8abf5d641ef9c7c",
+      "originalSha256": "1199a5a8b845051d7b055183bab901cd600ed9b49b11e29ae8abf5d641ef9c7c",
+      "width": 2560,
+      "height": 1709,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 18820,
+            "sha256": "ba5c8b7cb3e0277364fac9e7401dd5e1be0a0d4027e3000b43e5897035a7adfd"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 75263,
+            "sha256": "04eb2a0ccc33a048e246a751ac717ce15180952fe3ba764d4cbb75c330d7f28c"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 961,
+            "bytes": 161295,
+            "sha256": "5e2dec9d2859dcbc974d8df3b28f5c16323808b618f47ac04e5a8a01ad7cb935"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1281,
+            "bytes": 273567,
+            "sha256": "e19c5a055b3159157246bde16b1290b7340a75ee1922bbed24a3fa8d7c05b9d2"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1709,
+            "bytes": 496050,
+            "sha256": "51aec71e779fbfb66f14bb937bed42fe17ef8dad3ee4baf46d23a6044063f633"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 37002,
+            "sha256": "d457bde0e53c03ad53f2e8c96bfb2fa5d9fd8366101c766b424c7a258a575e06"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 147440,
+            "sha256": "e35cb8156666fe93e82b1f3e6c5ae2f60be97611713b8431c31104010b81b593"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 961,
+            "bytes": 322824,
+            "sha256": "a87b8c37f64dfbe5a2fc2a3bb74dbe2fbc5e6f2085042e821393b3703089aa19"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1281,
+            "bytes": 555332,
+            "sha256": "712484bb47f0e6383579125b810db686b88da934690a094c106883bef24b2f10"
+          },
+          {
+            "url": "/assets/images/1199a5a8b845051d-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1709,
+            "bytes": 961462,
+            "sha256": "d363e8aa79060ced9c8ae195e835d429c16192db349bbf35426c6b1282bcdb4a"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/02/CLIRM-1-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
+      "sourceSha256": "bee57b2400cdeb9e934d56e16d7fb310d57df31cf0af3bbc2dbd3d99ff6a0452",
+      "originalSha256": "b84d3ed8cdc0dc0eca40e0ce2cd803265cce7c5adfb0f3f7b01564f7c17795ab",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8699,
+            "sha256": "fbc00f9143f131b277185b5cdbbfedcf8de0e82670cd63c6f9cfa95b9bddba4f"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 22561,
+            "sha256": "3048de2d5c4ac5e0cf329fdd31d6770f350382a60b806579be714c9d7ad4827a"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 40052,
+            "sha256": "b654b6c5de0591ce1495f91e7c779d33dbb6354f676cfc2057ed4be211c31d3f"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 61834,
+            "sha256": "f8d532716fd6c91f64f041e350954f2fa5e1c9bd2c89d2410924d443c190fde0"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 105311,
+            "sha256": "04dfaeb124edb541bb7dec87e4b66166879d99181f2643b5c4bd4e78df7cb47c"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 14052,
+            "sha256": "2110a8492bf5a5b4e2176a740b23e47a8598ef3a7cca62706027e3e4650ecfb5"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 38118,
+            "sha256": "dfd4feb197da2cf70c9ebc2b650eda1f3514b3d17f7c0207d9ed1d3c497f0303"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 67626,
+            "sha256": "98d78c20c910183a84f92da289ce857f335d17adf07d17a2a70c4336502d6cd4"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 106396,
+            "sha256": "50cf3ecc02dd75fa69ea2d555a1bb61d9815a206c5c8118f8a6583757670f535"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 178022,
+            "sha256": "93eeb19cf3375d3754652a702e06fa284afea0882962a7996f6220894f325759"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
+      "sourceSha256": "bee57b2400cdeb9e934d56e16d7fb310d57df31cf0af3bbc2dbd3d99ff6a0452",
+      "originalSha256": "bee57b2400cdeb9e934d56e16d7fb310d57df31cf0af3bbc2dbd3d99ff6a0452",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8699,
+            "sha256": "fbc00f9143f131b277185b5cdbbfedcf8de0e82670cd63c6f9cfa95b9bddba4f"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 22561,
+            "sha256": "3048de2d5c4ac5e0cf329fdd31d6770f350382a60b806579be714c9d7ad4827a"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 40052,
+            "sha256": "b654b6c5de0591ce1495f91e7c779d33dbb6354f676cfc2057ed4be211c31d3f"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 61834,
+            "sha256": "f8d532716fd6c91f64f041e350954f2fa5e1c9bd2c89d2410924d443c190fde0"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 105311,
+            "sha256": "04dfaeb124edb541bb7dec87e4b66166879d99181f2643b5c4bd4e78df7cb47c"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 14052,
+            "sha256": "2110a8492bf5a5b4e2176a740b23e47a8598ef3a7cca62706027e3e4650ecfb5"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 38118,
+            "sha256": "dfd4feb197da2cf70c9ebc2b650eda1f3514b3d17f7c0207d9ed1d3c497f0303"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 67626,
+            "sha256": "98d78c20c910183a84f92da289ce857f335d17adf07d17a2a70c4336502d6cd4"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 106396,
+            "sha256": "50cf3ecc02dd75fa69ea2d555a1bb61d9815a206c5c8118f8a6583757670f535"
+          },
+          {
+            "url": "/assets/images/bee57b2400cdeb9e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 178022,
+            "sha256": "93eeb19cf3375d3754652a702e06fa284afea0882962a7996f6220894f325759"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/02/CLIRM-178-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
+      "sourceSha256": "13ec06ca0b984ee6969ab3c55128b827b04b08a54c09e2b7cb995d980a15ffa5",
+      "originalSha256": "803c480a8813510a0a04d00e81f425a0b2907f443172596d5edc7d3c58f6c8d0",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8950,
+            "sha256": "1cc37f02cbab607b52a78be054f40e44aca3309305b98774de76a32d21a4eac1"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 21346,
+            "sha256": "3ca0cdf14751d4b39ff203afcab11155a2562d829b073b5c8cca9abf0bab8fed"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 36353,
+            "sha256": "b0fb26b1b4d16da2c907fff9ab2bb0ee754ae4a73adc816a5232365101178f7a"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 53928,
+            "sha256": "3ef5e82818985948c677bad7680a6be5cc7ed02d77a1f5349d0aa130102f22b1"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 86970,
+            "sha256": "4c71b3fedd12ea47d6a4134ca3437e3766ed546d098a9e5f91c18c744d51521a"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 13828,
+            "sha256": "82c95e9d8f1da5931bef8eb764478af931518052396fde16c2c0e44269bafa4e"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 34392,
+            "sha256": "fc6911b94587ca2fe3b0ed8cc4780485f9910e66e828295e487fde12ef0867a0"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 60254,
+            "sha256": "fd6b361322884b8c07b85e81566adc543f6925b9a3a804895964ae58db8dee4c"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 88118,
+            "sha256": "16a173c965ae14ae8e16a8de0ad161cf92bcc6df8b71ee643df117506c65956e"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 140114,
+            "sha256": "b392ab1156536490c43f9f8335eab71b8bc6331b4894caf24168d6a45f60c786"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
+      "sourceSha256": "13ec06ca0b984ee6969ab3c55128b827b04b08a54c09e2b7cb995d980a15ffa5",
+      "originalSha256": "13ec06ca0b984ee6969ab3c55128b827b04b08a54c09e2b7cb995d980a15ffa5",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 8950,
+            "sha256": "1cc37f02cbab607b52a78be054f40e44aca3309305b98774de76a32d21a4eac1"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 21346,
+            "sha256": "3ca0cdf14751d4b39ff203afcab11155a2562d829b073b5c8cca9abf0bab8fed"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 36353,
+            "sha256": "b0fb26b1b4d16da2c907fff9ab2bb0ee754ae4a73adc816a5232365101178f7a"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 53928,
+            "sha256": "3ef5e82818985948c677bad7680a6be5cc7ed02d77a1f5349d0aa130102f22b1"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 86970,
+            "sha256": "4c71b3fedd12ea47d6a4134ca3437e3766ed546d098a9e5f91c18c744d51521a"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 13828,
+            "sha256": "82c95e9d8f1da5931bef8eb764478af931518052396fde16c2c0e44269bafa4e"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 34392,
+            "sha256": "fc6911b94587ca2fe3b0ed8cc4780485f9910e66e828295e487fde12ef0867a0"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 60254,
+            "sha256": "fd6b361322884b8c07b85e81566adc543f6925b9a3a804895964ae58db8dee4c"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 88118,
+            "sha256": "16a173c965ae14ae8e16a8de0ad161cf92bcc6df8b71ee643df117506c65956e"
+          },
+          {
+            "url": "/assets/images/13ec06ca0b984ee6-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 140114,
+            "sha256": "b392ab1156536490c43f9f8335eab71b8bc6331b4894caf24168d6a45f60c786"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg",
+      "sourceSha256": "1a9455e98bf6e81b9fc44376efe8fb6d588b7c86c61d2d5398c328f5cdd3e745",
+      "originalSha256": "1a9455e98bf6e81b9fc44376efe8fb6d588b7c86c61d2d5398c328f5cdd3e745",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9218,
+            "sha256": "ea1588245729410ea5072122634185a347dd84dd2a32fd84178ad9862637b5fc"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 28815,
+            "sha256": "f9e2d2f8323baf526a74af81aecd4eb3bdd8a3b436c31154fe5ccfc72c958a8e"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 54418,
+            "sha256": "bf91ea0de1dfcd16a3f812be4cfefdc085e36e1a0db7234f8f0a5e93be428c34"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 83797,
+            "sha256": "3ea173f0463f696182b8d777c9ecd0832905f5efa09c3b69e27c761a7ae934e4"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 131934,
+            "sha256": "f39d960000f2f5867ad8e4b5e61b225ada122316f1c381534788fd815db0ea3c"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 16166,
+            "sha256": "9526a37f1604678d5aa2ec4068ee4448a054fec4440ac35a52104ee9b56f457c"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 50572,
+            "sha256": "46854fcb436551846dcd07a79a1c6cd9bb2d91e13d8d5bdb77749e03f91da8b5"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 90042,
+            "sha256": "3966a2b16638c19eb8b9d07f5f12a7ba14733d1757e655c1ac308db4f8a0ad7d"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 134142,
+            "sha256": "b19ba1dfe7f32d20242d6d0b374bd80a9da5785833bf0a8b415a0590c5662aa8"
+          },
+          {
+            "url": "/assets/images/1a9455e98bf6e81b-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 210394,
+            "sha256": "071b2d77153c24ad08b5decdab9a544f49f028ea09930f38adee34bd7a5fbc4c"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/CLIRW-49-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
+      "sourceSha256": "dfe864b636584dd9e2ef571fb5dbe54d0b815ab59546978f2a97cec432325310",
+      "originalSha256": "40db240c5265dee7a490af63c466b0a5cb7c965721957590db831d492574f25d",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13670,
+            "sha256": "2e975f29cb11fdf020f7924bcb5b262bf5861ffc9b01c77241da23b7d42f8e8d"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 37146,
+            "sha256": "b8865ac6b092328f51fe31c534762a2faf90bee3ddf9bda175ab610fc19f453a"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 63422,
+            "sha256": "538a53ffcd2baaf180379c414d903a933d6f040dec2e919e5cc1d93710f02103"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 93821,
+            "sha256": "643110b058f9f423ba47f941bd9aff27a5a3e0e560e869b1271b26d238979996"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 143987,
+            "sha256": "c8c352d77257b42d90a3e8c7f587896395a431df5291eb3160386914e7822e9f"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 22810,
+            "sha256": "cfab7f20ad72b3f19a0c1f7f49d241efaac6fa0141a383fc96f379d6fe07587d"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 62854,
+            "sha256": "b78665d62f821a8120506c69eae23979883671dd3b601de370a9bb4cfdd35378"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 108016,
+            "sha256": "bab1affb403266f4aca680a0de05a321a02a6b436ff8c42593058f780513204b"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 157322,
+            "sha256": "d93548f6dccd064e7c32eb6987e404dc07b73197b78d4c0169815a8e02252da9"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 235352,
+            "sha256": "7fe185ec3bd3347b4e906b1d9bae6cf3f1412a5a11fd2526fa87cefdc275acec"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
+      "sourceSha256": "dfe864b636584dd9e2ef571fb5dbe54d0b815ab59546978f2a97cec432325310",
+      "originalSha256": "dfe864b636584dd9e2ef571fb5dbe54d0b815ab59546978f2a97cec432325310",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 13670,
+            "sha256": "2e975f29cb11fdf020f7924bcb5b262bf5861ffc9b01c77241da23b7d42f8e8d"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 37146,
+            "sha256": "b8865ac6b092328f51fe31c534762a2faf90bee3ddf9bda175ab610fc19f453a"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 63422,
+            "sha256": "538a53ffcd2baaf180379c414d903a933d6f040dec2e919e5cc1d93710f02103"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 93821,
+            "sha256": "643110b058f9f423ba47f941bd9aff27a5a3e0e560e869b1271b26d238979996"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 143987,
+            "sha256": "c8c352d77257b42d90a3e8c7f587896395a431df5291eb3160386914e7822e9f"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 22810,
+            "sha256": "cfab7f20ad72b3f19a0c1f7f49d241efaac6fa0141a383fc96f379d6fe07587d"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 62854,
+            "sha256": "b78665d62f821a8120506c69eae23979883671dd3b601de370a9bb4cfdd35378"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 108016,
+            "sha256": "bab1affb403266f4aca680a0de05a321a02a6b436ff8c42593058f780513204b"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 157322,
+            "sha256": "d93548f6dccd064e7c32eb6987e404dc07b73197b78d4c0169815a8e02252da9"
+          },
+          {
+            "url": "/assets/images/dfe864b636584dd9-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 235352,
+            "sha256": "7fe185ec3bd3347b4e906b1d9bae6cf3f1412a5a11fd2526fa87cefdc275acec"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
+      "sourceSha256": "f26a59d22e5c8d7e732bb66037becbc91ae37bd6bfc2b7eaa9d1fb43df51932b",
+      "originalSha256": "338772d225fbe4561aa7a3611b2a2c13440bb21155a6f0479f530113bddd70d0",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 21004,
+            "sha256": "9e7e22ede9e140aedd02c0946ab56fdd78489c91de64155043b7c4a4171ea325"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 65864,
+            "sha256": "f91a49577865add6f3194297ae5fb50133339ae02172eec62c17a4b4b1e838c3"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 123116,
+            "sha256": "48d9e63b8a28b0e4b4ca06f56c39d268184454d4ebbe0c8858ea17c8ef855807"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 195144,
+            "sha256": "6baa8fb3d9dd9fbc42c35fb2301e9d9da0d0c346b6b8f709b639b756aed4cf5e"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 327731,
+            "sha256": "4c4c0613a9ac03c60574d722bc519dea5c93b375d5bb33fe766a0539fb0f9b42"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 40852,
+            "sha256": "f8c8092f31cdd1f30af02c6f3968226af2da9923cd1c3e449bf32ee5a93c9c13"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 134996,
+            "sha256": "1f921928568462cb68b04c07aa0a33749f0b142f4ba8b5575750a8dba862a5bd"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 250004,
+            "sha256": "e50703d5c7008c97e2fbacb1de4273f9890c992c5a40e59deaddf70367e9b2f9"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 381582,
+            "sha256": "98c94a3bf7b054c003bb0b3b22fbd9eb3bfa93a31221e6399ae5a4d6446f7855"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 560280,
+            "sha256": "05c89ee2bd9c5854aecb871454407e49029491e510d1213993891a96b0288930"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
+      "sourceSha256": "f26a59d22e5c8d7e732bb66037becbc91ae37bd6bfc2b7eaa9d1fb43df51932b",
+      "originalSha256": "f26a59d22e5c8d7e732bb66037becbc91ae37bd6bfc2b7eaa9d1fb43df51932b",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 21004,
+            "sha256": "9e7e22ede9e140aedd02c0946ab56fdd78489c91de64155043b7c4a4171ea325"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 65864,
+            "sha256": "f91a49577865add6f3194297ae5fb50133339ae02172eec62c17a4b4b1e838c3"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 123116,
+            "sha256": "48d9e63b8a28b0e4b4ca06f56c39d268184454d4ebbe0c8858ea17c8ef855807"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 195144,
+            "sha256": "6baa8fb3d9dd9fbc42c35fb2301e9d9da0d0c346b6b8f709b639b756aed4cf5e"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 327731,
+            "sha256": "4c4c0613a9ac03c60574d722bc519dea5c93b375d5bb33fe766a0539fb0f9b42"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 40852,
+            "sha256": "f8c8092f31cdd1f30af02c6f3968226af2da9923cd1c3e449bf32ee5a93c9c13"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 134996,
+            "sha256": "1f921928568462cb68b04c07aa0a33749f0b142f4ba8b5575750a8dba862a5bd"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 250004,
+            "sha256": "e50703d5c7008c97e2fbacb1de4273f9890c992c5a40e59deaddf70367e9b2f9"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 381582,
+            "sha256": "98c94a3bf7b054c003bb0b3b22fbd9eb3bfa93a31221e6399ae5a4d6446f7855"
+          },
+          {
+            "url": "/assets/images/f26a59d22e5c8d7e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 560280,
+            "sha256": "05c89ee2bd9c5854aecb871454407e49029491e510d1213993891a96b0288930"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg",
+      "sourceSha256": "c4715d2867feb4c0fb1798ba2129cca35fe14dde2fec52da9b3eb954cfa937ca",
+      "originalSha256": "c4715d2867feb4c0fb1798ba2129cca35fe14dde2fec52da9b3eb954cfa937ca",
+      "width": 1024,
+      "height": 684,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 17214,
+            "sha256": "d616b9b9c58b0993d7783e58e56ee34469136b799c44dd285879e8eb3f666cfa"
+          },
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 641,
+            "bytes": 57072,
+            "sha256": "5b066a74291d4f31f961655f3f1ec5ca76e5da39b3d43281d7147ee2aa76aeb6"
+          },
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-1024.avif",
+            "width": 1024,
+            "height": 684,
+            "bytes": 69693,
+            "sha256": "2a81335e03017f1dae56a997df359d251b5194af51772c7a4fc4c2a31086f7f8"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 33286,
+            "sha256": "6a64c508f7b9bbba12fbe2f8d8c2096ef7f9238c81060f6af17192b06af1ab93"
+          },
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 641,
+            "bytes": 113674,
+            "sha256": "88bd190f406a4d0a2e925e18297958556d8ae58d8e48576fe6c24d5332353e63"
+          },
+          {
+            "url": "/assets/images/c4715d2867feb4c0-bdbdb24e-1024.webp",
+            "width": 1024,
+            "height": 684,
+            "bytes": 132892,
+            "sha256": "114576e22a2bff221486b56e31a495117130c9fec209474642112136f122b933"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/04/GHphoto-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
+      "sourceSha256": "0e7d2237d7742e39ff946d18a1eeb5df90d719c7022119d76c2871aa71ca9bdc",
+      "originalSha256": "a8b3a5980b7b40d9acca0cbc577a1f04b023db1b279be9f37ac096a2aafa2f22",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 6810,
+            "sha256": "b75b4a6c8fb2f93f46cb2c9a792f9ee41efd59ca55f69face0692f66ccaf1dad"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 19937,
+            "sha256": "22b0bbee84cd71c834b3f54f1542f7adf9a654ecdfc62b2f1872fb7d0aa375d0"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 35900,
+            "sha256": "11f7ef75a8c82c817997bc55d7ee53a91496fbc9fe46ffad4241fa4f486487ce"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 55357,
+            "sha256": "c5e1c0f1f408da5b49396f4dd73bfd188e33ae8f9c025f2e494bc9b3d6b33453"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 83896,
+            "sha256": "c6f986e1382bbacf1e371246cb4196d061c73d73ae9777731ec7733f5304a57a"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 10614,
+            "sha256": "b5349590dd6fba79c1bf80efb5cea39b369b22d6651cb0227ffc06b6ebde4077"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 35500,
+            "sha256": "abeabbd8af5dbece416c3d23a3ca24c6c658b1398f4eb3db04b7b13bccdbb7c2"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 65276,
+            "sha256": "cadeb3b767c926c1d2291156c4c37a6ac993f93837792198161e00cad32f9276"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 96122,
+            "sha256": "689943b1b5cd238a3ac76b93c2eee05945c75d61fe8bec0af373de43427ca979"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 142158,
+            "sha256": "89ba0b879e2ad7a31330e12ca5d71df1f31deb09cd4867900a197fcc92c46d35"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
+      "sourceSha256": "0e7d2237d7742e39ff946d18a1eeb5df90d719c7022119d76c2871aa71ca9bdc",
+      "originalSha256": "0e7d2237d7742e39ff946d18a1eeb5df90d719c7022119d76c2871aa71ca9bdc",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 6810,
+            "sha256": "b75b4a6c8fb2f93f46cb2c9a792f9ee41efd59ca55f69face0692f66ccaf1dad"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 19937,
+            "sha256": "22b0bbee84cd71c834b3f54f1542f7adf9a654ecdfc62b2f1872fb7d0aa375d0"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 35900,
+            "sha256": "11f7ef75a8c82c817997bc55d7ee53a91496fbc9fe46ffad4241fa4f486487ce"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 55357,
+            "sha256": "c5e1c0f1f408da5b49396f4dd73bfd188e33ae8f9c025f2e494bc9b3d6b33453"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 83896,
+            "sha256": "c6f986e1382bbacf1e371246cb4196d061c73d73ae9777731ec7733f5304a57a"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 10614,
+            "sha256": "b5349590dd6fba79c1bf80efb5cea39b369b22d6651cb0227ffc06b6ebde4077"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 35500,
+            "sha256": "abeabbd8af5dbece416c3d23a3ca24c6c658b1398f4eb3db04b7b13bccdbb7c2"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 65276,
+            "sha256": "cadeb3b767c926c1d2291156c4c37a6ac993f93837792198161e00cad32f9276"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 96122,
+            "sha256": "689943b1b5cd238a3ac76b93c2eee05945c75d61fe8bec0af373de43427ca979"
+          },
+          {
+            "url": "/assets/images/0e7d2237d7742e39-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 142158,
+            "sha256": "89ba0b879e2ad7a31330e12ca5d71df1f31deb09cd4867900a197fcc92c46d35"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/04/KFphoto-1024x681.jpeg": {
+      "source": "/wp-content/uploads/sites/50/2024/04/KFphoto-scaled.jpeg",
+      "sourceSha256": "b11d3596701fe30990cfa0de4c7e93ba93e5a79fa875062c918294fc60965fb6",
+      "originalSha256": "17a50386a8973a24f533ecd79082fbb4e7af95b5fcdc3fcbf9b7a1ca5d77fb0d",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 6939,
+            "sha256": "d74aed31e5ffc8b4569dffe38e2ab2254599c033a5391ee2902c78d2cb22481c"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 18872,
+            "sha256": "bf38b840163d6b443b19d441d5e050a2d25fae92266ca8a5b8957841e0714b16"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 35101,
+            "sha256": "e48b55a0d68cba9a973879a0247ce12d96ef690961c93e8b0ea95afa2bde2ec0"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 54622,
+            "sha256": "a25e92dbccd5bc44dc6f23e609a974827b1a6f88a29b7bb818474c7539493162"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 89587,
+            "sha256": "9514c32d0579018f4bbebc30d892081e03efcdb583ff997ab117c4dde37e7260"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 10986,
+            "sha256": "1395641c9537f9581bb3c36922663b14eb683857267cc342e423cbb48a47b5e4"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 31680,
+            "sha256": "ff62d7bd43487355d04038607ec2656894f80ae11b322d13aa8971d54b158625"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 57002,
+            "sha256": "837e4c59b1fa74def437585b0875a990b85d5b09c62dc6602cc2a43801c1d4f9"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 88318,
+            "sha256": "bb77c9a360a001079ad970a844323d8c370f71fa79f01b540eb6ae37803c5f65"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 139690,
+            "sha256": "bc7668b27b37267e4f0a1fcbde3cfecaa39dedfd9e4d224ee4bb8f1757f857b2"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/04/KFphoto-scaled.jpeg": {
+      "source": "/wp-content/uploads/sites/50/2024/04/KFphoto-scaled.jpeg",
+      "sourceSha256": "b11d3596701fe30990cfa0de4c7e93ba93e5a79fa875062c918294fc60965fb6",
+      "originalSha256": "b11d3596701fe30990cfa0de4c7e93ba93e5a79fa875062c918294fc60965fb6",
+      "width": 2560,
+      "height": 1703,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 319,
+            "bytes": 6939,
+            "sha256": "d74aed31e5ffc8b4569dffe38e2ab2254599c033a5391ee2902c78d2cb22481c"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 638,
+            "bytes": 18872,
+            "sha256": "bf38b840163d6b443b19d441d5e050a2d25fae92266ca8a5b8957841e0714b16"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 957,
+            "bytes": 35101,
+            "sha256": "e48b55a0d68cba9a973879a0247ce12d96ef690961c93e8b0ea95afa2bde2ec0"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 54622,
+            "sha256": "a25e92dbccd5bc44dc6f23e609a974827b1a6f88a29b7bb818474c7539493162"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 89587,
+            "sha256": "9514c32d0579018f4bbebc30d892081e03efcdb583ff997ab117c4dde37e7260"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 319,
+            "bytes": 10986,
+            "sha256": "1395641c9537f9581bb3c36922663b14eb683857267cc342e423cbb48a47b5e4"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 638,
+            "bytes": 31680,
+            "sha256": "ff62d7bd43487355d04038607ec2656894f80ae11b322d13aa8971d54b158625"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 957,
+            "bytes": 57002,
+            "sha256": "837e4c59b1fa74def437585b0875a990b85d5b09c62dc6602cc2a43801c1d4f9"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1277,
+            "bytes": 88318,
+            "sha256": "bb77c9a360a001079ad970a844323d8c370f71fa79f01b540eb6ae37803c5f65"
+          },
+          {
+            "url": "/assets/images/b11d3596701fe309-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1703,
+            "bytes": 139690,
+            "sha256": "bc7668b27b37267e4f0a1fcbde3cfecaa39dedfd9e4d224ee4bb8f1757f857b2"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/07/CLIRM-35-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-scaled.jpg",
+      "sourceSha256": "24bba8248766e86e59ec63fc16f455151768d5c69693d134aeddbf36bf375d5e",
+      "originalSha256": "6469da688ec4b3714c0910677d89f39f324e0de8554ad56498a6f535d50fa06c",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9520,
+            "sha256": "5ac89d7623820954c80c07e5c5ed80dc1100c1225e026e782e8fd9c45b5cfcb9"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 29294,
+            "sha256": "c52fd39736daa097ece98660b59413f90be87925708aa676ff5b81538a4dd411"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 54282,
+            "sha256": "ae9203c19b8d467a7ff0ebb168d1908934e14cd23f9a61ec2e613d15f8c0406d"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 81548,
+            "sha256": "a136f0e8c804d684937794500087d960f20ead8222259d37a81251669f3fd621"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 118295,
+            "sha256": "39e5f2ca88379f84a59f226137ba91552f4ee3005c8d6d3f7f63f78764a07668"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 16014,
+            "sha256": "08bb67a95aebc09f2e215b1b7a1eb361116a066dcb78985545dd4c7016353c8c"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 54810,
+            "sha256": "32cf1f04859cc31269b9bd2abd4cabee050aa57c28c81eba2685601d1a4efafc"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 105752,
+            "sha256": "404ccb423565d43a2aa0ee9ba0ee7244fc0c2b1b91c94ee7bd963bc60f2ac5a5"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 158938,
+            "sha256": "4ce279dd18414051cb0267d6832570390cf05486aeec84244d0b521db7bac1fa"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 237774,
+            "sha256": "e8569c3034f1738c7556e85099e098861215776b28f58e0ffc71386ed26ea86c"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/07/CLIRM-35-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-scaled.jpg",
+      "sourceSha256": "24bba8248766e86e59ec63fc16f455151768d5c69693d134aeddbf36bf375d5e",
+      "originalSha256": "24bba8248766e86e59ec63fc16f455151768d5c69693d134aeddbf36bf375d5e",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 9520,
+            "sha256": "5ac89d7623820954c80c07e5c5ed80dc1100c1225e026e782e8fd9c45b5cfcb9"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 29294,
+            "sha256": "c52fd39736daa097ece98660b59413f90be87925708aa676ff5b81538a4dd411"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 54282,
+            "sha256": "ae9203c19b8d467a7ff0ebb168d1908934e14cd23f9a61ec2e613d15f8c0406d"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 81548,
+            "sha256": "a136f0e8c804d684937794500087d960f20ead8222259d37a81251669f3fd621"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 118295,
+            "sha256": "39e5f2ca88379f84a59f226137ba91552f4ee3005c8d6d3f7f63f78764a07668"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 16014,
+            "sha256": "08bb67a95aebc09f2e215b1b7a1eb361116a066dcb78985545dd4c7016353c8c"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 54810,
+            "sha256": "32cf1f04859cc31269b9bd2abd4cabee050aa57c28c81eba2685601d1a4efafc"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 105752,
+            "sha256": "404ccb423565d43a2aa0ee9ba0ee7244fc0c2b1b91c94ee7bd963bc60f2ac5a5"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 158938,
+            "sha256": "4ce279dd18414051cb0267d6832570390cf05486aeec84244d0b521db7bac1fa"
+          },
+          {
+            "url": "/assets/images/24bba8248766e86e-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 237774,
+            "sha256": "e8569c3034f1738c7556e85099e098861215776b28f58e0ffc71386ed26ea86c"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/07/CLIRM-95-1024x683.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
+      "sourceSha256": "eab59de20d83d1723c19cd302e5bc7fb27888cc231955c0d7e1a6f64c5863925",
+      "originalSha256": "668904f839f88633976e71c062415122402e794906f03f164752a543d7bfbb86",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 12592,
+            "sha256": "5acf849a0beb697347e0bcb0d265b965e7101ef9b9f923b37eb2f9fdd30e9524"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 29627,
+            "sha256": "d46ddd8fa6b0794c6205b88ea35806297df138b81b9f5788bda93255f3d3b5bd"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 48993,
+            "sha256": "753a6bf081113ff095f922914fcbe35edce19d7b32af17d3084997333509b404"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 71712,
+            "sha256": "7f001506023c34d267cf6666556d65dcd5c3ddec79a6bcc185ac2ddcdd0c0758"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 110838,
+            "sha256": "5b467da895eef3bb9c12ff8ee48707b98a76cdb51dded02efe01d37eaa4131d5"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 21530,
+            "sha256": "6bc11d8bfcc6ee4e4850675a3da211c726f3ba32140aff5f6740698ecbf57226"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 50916,
+            "sha256": "79337b162101eb2b406571ff24dee898a6aa790321bd11dd78ce209a36b58792"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 85150,
+            "sha256": "02ea11fd17964634ee6af1e4119f4ec2b86e8ac250f988c65affe215dc54b9a8"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 125560,
+            "sha256": "82779b586b80c7ee3d948bfaa1b8cc96fed0e03bee868cc635e1b50e342613d1"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 189822,
+            "sha256": "4f38e9e202039ab05b5a208775b89652389e07047ea990ccc30b2d617df93031"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
+      "sourceSha256": "eab59de20d83d1723c19cd302e5bc7fb27888cc231955c0d7e1a6f64c5863925",
+      "originalSha256": "eab59de20d83d1723c19cd302e5bc7fb27888cc231955c0d7e1a6f64c5863925",
+      "width": 2560,
+      "height": 1707,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 320,
+            "bytes": 12592,
+            "sha256": "5acf849a0beb697347e0bcb0d265b965e7101ef9b9f923b37eb2f9fdd30e9524"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 640,
+            "bytes": 29627,
+            "sha256": "d46ddd8fa6b0794c6205b88ea35806297df138b81b9f5788bda93255f3d3b5bd"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 960,
+            "bytes": 48993,
+            "sha256": "753a6bf081113ff095f922914fcbe35edce19d7b32af17d3084997333509b404"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1920.avif",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 71712,
+            "sha256": "7f001506023c34d267cf6666556d65dcd5c3ddec79a6bcc185ac2ddcdd0c0758"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-2560.avif",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 110838,
+            "sha256": "5b467da895eef3bb9c12ff8ee48707b98a76cdb51dded02efe01d37eaa4131d5"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 320,
+            "bytes": 21530,
+            "sha256": "6bc11d8bfcc6ee4e4850675a3da211c726f3ba32140aff5f6740698ecbf57226"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 640,
+            "bytes": 50916,
+            "sha256": "79337b162101eb2b406571ff24dee898a6aa790321bd11dd78ce209a36b58792"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 960,
+            "bytes": 85150,
+            "sha256": "02ea11fd17964634ee6af1e4119f4ec2b86e8ac250f988c65affe215dc54b9a8"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 125560,
+            "sha256": "82779b586b80c7ee3d948bfaa1b8cc96fed0e03bee868cc635e1b50e342613d1"
+          },
+          {
+            "url": "/assets/images/eab59de20d83d172-bdbdb24e-2560.webp",
+            "width": 2560,
+            "height": 1707,
+            "bytes": 189822,
+            "sha256": "4f38e9e202039ab05b5a208775b89652389e07047ea990ccc30b2d617df93031"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-706x1024.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-scaled.jpg",
+      "sourceSha256": "95eb9ed523a8dd11648d9130708d18206ccfc796dd97f6ec6d4bd2e1623bc8e9",
+      "originalSha256": "02e02e1a094635899e2581b4ebf61822ead8ea21546dc53ab68a870e5580ba1e",
+      "width": 1764,
+      "height": 2560,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 696,
+            "bytes": 11296,
+            "sha256": "bc13a486ac769fd1aa2f0d0ce5bd2ac5894b870628b654b4781e717978f2060e"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 1393,
+            "bytes": 26926,
+            "sha256": "3f30dee381583ac452cc73294ca1dfc88d50fc26bc8bf7d4c125ebb2b58f63ff"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 2089,
+            "bytes": 48532,
+            "sha256": "00a777d0b0676b14cfd3fd0764c9bfda5659cc1a98822f7ef35f9284a4cc3d57"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1764.avif",
+            "width": 1764,
+            "height": 2560,
+            "bytes": 70257,
+            "sha256": "ddc7e5f0be54ff0f1cd731d9c06212dfaba383e03aa6464f4fd993b9eb51c6f4"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 696,
+            "bytes": 15098,
+            "sha256": "e902b5a8ce98119febc2e3eae96d1e17b43b6e815e3c603cfa49724d0c7a2e0e"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 1393,
+            "bytes": 37552,
+            "sha256": "2e4d4beef8836f19cf02ef0021f42ffd461349b2da0604b2eee464c886270119"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 2089,
+            "bytes": 67726,
+            "sha256": "21b68df337b7f12173ccae73dfbebab65f01b5254b0a9997d884a9f41b67e286"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1764.webp",
+            "width": 1764,
+            "height": 2560,
+            "bytes": 99056,
+            "sha256": "44b8db3cde825b3e86e515e6bc8a1e0caa1b7ffdc28413a2a61b7052a372122c"
+          }
+        ]
+      }
+    },
+    "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-scaled.jpg": {
+      "source": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-scaled.jpg",
+      "sourceSha256": "95eb9ed523a8dd11648d9130708d18206ccfc796dd97f6ec6d4bd2e1623bc8e9",
+      "originalSha256": "95eb9ed523a8dd11648d9130708d18206ccfc796dd97f6ec6d4bd2e1623bc8e9",
+      "width": 1764,
+      "height": 2560,
+      "formats": {
+        "avif": [
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-480.avif",
+            "width": 480,
+            "height": 696,
+            "bytes": 11296,
+            "sha256": "bc13a486ac769fd1aa2f0d0ce5bd2ac5894b870628b654b4781e717978f2060e"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-960.avif",
+            "width": 960,
+            "height": 1393,
+            "bytes": 26926,
+            "sha256": "3f30dee381583ac452cc73294ca1dfc88d50fc26bc8bf7d4c125ebb2b58f63ff"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1440.avif",
+            "width": 1440,
+            "height": 2089,
+            "bytes": 48532,
+            "sha256": "00a777d0b0676b14cfd3fd0764c9bfda5659cc1a98822f7ef35f9284a4cc3d57"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1764.avif",
+            "width": 1764,
+            "height": 2560,
+            "bytes": 70257,
+            "sha256": "ddc7e5f0be54ff0f1cd731d9c06212dfaba383e03aa6464f4fd993b9eb51c6f4"
+          }
+        ],
+        "webp": [
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-480.webp",
+            "width": 480,
+            "height": 696,
+            "bytes": 15098,
+            "sha256": "e902b5a8ce98119febc2e3eae96d1e17b43b6e815e3c603cfa49724d0c7a2e0e"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-960.webp",
+            "width": 960,
+            "height": 1393,
+            "bytes": 37552,
+            "sha256": "2e4d4beef8836f19cf02ef0021f42ffd461349b2da0604b2eee464c886270119"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1440.webp",
+            "width": 1440,
+            "height": 2089,
+            "bytes": 67726,
+            "sha256": "21b68df337b7f12173ccae73dfbebab65f01b5254b0a9997d884a9f41b67e286"
+          },
+          {
+            "url": "/assets/images/95eb9ed523a8dd11-bdbdb24e-1764.webp",
+            "width": 1764,
+            "height": 2560,
+            "bytes": 99056,
+            "sha256": "44b8db3cde825b3e86e515e6bc8a1e0caa1b7ffdc28413a2a61b7052a372122c"
+          }
+        ]
+      }
+    }
+  },
+  "report": {
+    "mappedSources": 47,
+    "masterPhotographs": 34,
+    "derivatives": 320,
+    "retainedBytes": 29028231,
+    "comparisons": {
+      "avif": {
+        "photographs": 34,
+        "originalBytes": 16037472,
+        "optimizedBytes": 4556005,
+        "reductionPercent": 71.6
+      },
+      "webp": {
+        "photographs": 34,
+        "originalBytes": 16037472,
+        "optimizedBytes": 7759866,
+        "reductionPercent": 51.6
+      }
+    }
+  }
+}

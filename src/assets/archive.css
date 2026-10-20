@@ -171,3 +171,8 @@ nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
     padding-left: 15px;
   }
 }
+
+/* Keep generated picture wrappers from adding a layout box around original images. */
+.archive-picture {
+  display: contents;
+}
