@@ -48,6 +48,7 @@
 ### Task 1: Import published documents and local assets
 
 **Interfaces:**
+
 - `readInventory(xml: string) -> {documents: Array<{id, title, url, path, type, content}>, attachments: Array<{url, path}>}` in `scripts/lib/inventory.mjs`.
 - `localizeUrl(value: string, baseUrl: string, assetMap: Map<string,string>) -> string` in `scripts/lib/localize.mjs`.
 - `normalizeDocument(html: string, pageUrl: string, assetMap: Map<string,string>) -> {title, route, bodyClasses, head, body}` in the same module.
@@ -65,6 +66,7 @@
 ### Task 2: Generate the complete archive with Eleventy
 
 **Interfaces:**
+
 - `src/_data/archive.json` is an array of the normalized document objects produced by Task 1.
 - `src/pages.njk` paginates this array with page size one and uses each document's `route` as its permalink.
 - `pnpm build` invokes Eleventy; `pnpm dev` invokes Eleventy with local serving; `pnpm verify` invokes the output verifier.
@@ -79,6 +81,7 @@
 ### Task 3: Restore interactive behavior and visual fidelity
 
 **Interfaces:**
+
 - `src/assets/archive.js` initializes controls from the retained original markup and uses local data/libraries only.
 - `src/assets/archive.css` contains scoped compatibility rules for removed plugin initialization and replacement controls; original styles remain the visual foundation.
 
@@ -93,6 +96,7 @@
 ### Task 4: Validate and document the deliverable
 
 **Interfaces:**
+
 - `pnpm verify` exits nonzero for missing expected routes, missing local assets, broken internal page links, retained accessibility widget resources, or unintended remote rendering dependencies. External navigation destinations are allowed.
 - README commands match `package.json` exactly.
 

@@ -3,9 +3,9 @@
 <head>
 {{ document.head | safe }}
 <link rel="stylesheet" href="/assets/archive.css">
-<script src="/assets/archive.js" defer></script>
+<script src="/assets/archive.js" type="module"></script>
 </head>
 <body class="{{ document.bodyClasses }}">
-{{ document.body | safe }}
+{{ document.body | withSharedLayout(shared, document.route) | safe }}
 </body>
 </html>

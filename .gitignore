@@ -4,3 +4,5 @@ _site/
 .superpowers/
 *.tar.gz
 .DS_Store
+
+.normalize-*/

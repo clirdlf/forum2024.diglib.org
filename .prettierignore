@@ -1,0 +1,8 @@
+node_modules/
+_site/
+.cache/
+.superpowers/
+data/capture/
+data/*.xml
+src/assets/site/
+pnpm-lock.yaml
