@@ -1,6 +1,6 @@
 {
   "origin": "https://forum2024.diglib.org",
-  "capturedAt": "2026-10-20T14:26:23.598Z",
+  "capturedAt": "2026-10-20T14:28:08.940Z",
   "inputs": [
     "data/dlfforum2024.WordPress.2026-10-20.xml",
     "site50-uploads-20261020.tar.gz"
@@ -247,13 +247,8 @@
   ],
   "assets": [
     {
-      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/header-footer.css",
-      "path": "/wp-content/themes/hello-elementor/assets/css/header-footer.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/reset.css",
-      "path": "/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "path": "/wp-content/themes/hello-elementor/assets/css/theme.css",
       "source": "public-site"
     },
     {
@@ -262,13 +257,18 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "path": "/wp-content/themes/hello-elementor/assets/css/reset.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/theme.css",
-      "path": "/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+      "path": "/wp-content/themes/hello-elementor/assets/css/header-footer.css",
       "source": "public-site"
     },
     {
@@ -282,13 +282,28 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-image.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
       "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-push.min.css",
       "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-push.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
       "source": "public-site"
     },
     {
@@ -302,23 +317,8 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
-      "source": "public-site"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
       "path": "/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css",
       "source": "public-site"
     },
     {
@@ -337,8 +337,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-counter.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-counter.min.css",
       "source": "public-site"
     },
     {
@@ -347,8 +347,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-counter.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-counter.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
       "source": "public-site"
     },
     {
@@ -367,13 +367,18 @@
       "source": "public-site"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-300x300.jpeg",
+      "path": "/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-300x300.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-150x150.jpeg",
       "path": "/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-150x150.jpeg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-300x300.jpeg",
-      "path": "/wp-content/uploads/sites/50/2023/12/dlfwhiteonblue-300x300.jpeg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-768x302.png",
+      "path": "/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-768x302.png",
       "source": "supplied-uploads"
     },
     {
@@ -392,11 +397,6 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-768x302.png",
-      "path": "/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-768x302.png",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-1024x403.png",
       "path": "/wp-content/uploads/sites/50/2023/12/DLF-forum-2024-black-1024x403.png",
       "source": "supplied-uploads"
@@ -412,11 +412,6 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26%E2%80%AFPM-1024x176.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26 PM-1024x176.png",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26%E2%80%AFPM-768x132.png",
       "path": "/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26 PM-768x132.png",
       "source": "supplied-uploads"
@@ -427,8 +422,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-105-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-300x200.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26%E2%80%AFPM-1024x176.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/Screenshot-2024-04-02-at-2.45.26 PM-1024x176.png",
       "source": "supplied-uploads"
     },
     {
@@ -437,13 +432,18 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-105-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-105-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-300x200.jpg",
       "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-105-scaled.jpg",
       "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-105-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-105-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -462,8 +462,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css",
-      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/thought-catalog-Nv-vx3kUR2A-unsplash-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/thought-catalog-Nv-vx3kUR2A-unsplash-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css",
+      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css",
       "source": "public-site"
     },
     {
@@ -472,19 +477,94 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-59.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-59.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-55.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-55.css",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css",
+      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
       "path": "/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
-      "path": "/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/thought-catalog-Nv-vx3kUR2A-unsplash-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/thought-catalog-Nv-vx3kUR2A-unsplash-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-2048x1365.jpg",
       "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+      "path": "/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css",
@@ -497,23 +577,8 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css",
-      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
-      "source": "public-site"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css",
       "path": "/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css",
-      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css",
       "source": "public-site"
     },
     {
@@ -522,13 +587,23 @@
       "source": "public-site"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css",
+      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css",
+      "source": "public-site"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-testimonial-carousel.min.css",
       "path": "/wp-content/plugins/elementor-pro/assets/css/widget-testimonial-carousel.min.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-26.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-26.css",
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-carousel-module-base.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-carousel-module-base.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-62.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-62.css",
       "source": "supplied-uploads"
     },
     {
@@ -537,28 +612,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-62.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-62.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-carousel-module-base.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-carousel-module-base.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-26.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-26.css",
       "source": "supplied-uploads"
     },
     {
@@ -567,18 +622,18 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-66-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -587,8 +642,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-77-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -597,8 +657,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-15-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-38-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -612,23 +672,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-768x1114.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-768x1114.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-135-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1411x2048.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1411x2048.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-207x300.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-207x300.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1059x1536.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1059x1536.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-50-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -637,8 +687,33 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-207x300.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-207x300.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-768x1114.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-768x1114.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1059x1536.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1059x1536.jpg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/AM-Quartex-1.png",
       "path": "/wp-content/uploads/sites/50/2024/01/AM-Quartex-1.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/4science_blue_transparent.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/4science_blue_transparent.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/TIND_logo_blue_medium-1-1.png",
+      "path": "/wp-content/uploads/sites/50/2024/01/TIND_logo_blue_medium-1-1.png",
       "source": "supplied-uploads"
     },
     {
@@ -647,8 +722,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/4science_blue_transparent.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/4science_blue_transparent.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1411x2048.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/09/ANDREA-Headshot-2023-1411x2048.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -662,8 +737,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/TIND_logo_blue_medium-1-1.png",
-      "path": "/wp-content/uploads/sites/50/2024/01/TIND_logo_blue_medium-1-1.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name.png",
       "source": "supplied-uploads"
     },
     {
@@ -677,13 +752,23 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name.png",
-      "source": "supplied-uploads"
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-toggle.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-toggle.min.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-scaled.jpeg",
       "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-scaled.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-300x200.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -697,123 +782,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-1024x683.jpg",
       "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-toggle.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-toggle.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-64-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-64-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-59.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-59.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-55.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-55.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-141-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-141-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-768x512.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -822,29 +792,19 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-1536x1024.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-1536x1024.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css",
-      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-2048x1365.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-208-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-208-2048x1365.jpg",
       "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-297.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-297.css",
-      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-300x200.jpg",
@@ -862,14 +822,19 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css",
+      "path": "/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css",
+      "source": "public-site"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-1536x1025.jpg",
       "path": "/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-1536x1025.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg",
-      "source": "supplied-uploads"
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-593.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-593.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/SummerExterior-MSULibraries-41_light-scaled.jpg",
@@ -882,13 +847,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-593.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-593.css",
-      "source": "public-site"
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-300x200.jpg",
+      "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-300x200.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-738.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-738.css",
       "source": "supplied-uploads"
     },
     {
@@ -897,8 +862,28 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/SummerExterior-MSULibraries-3-1024x684.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -907,14 +892,29 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
-      "source": "public-site"
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-2048x1365.jpg",
+      "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/jferretti_by_lauraferrara01.jpg",
       "path": "/wp-content/uploads/sites/50/2024/01/jferretti_by_lauraferrara01.jpg",
       "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+      "path": "/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-scaled.jpg",
@@ -932,29 +932,24 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-1536x1024.jpg",
       "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-344.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-344.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/css/poppins.css",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/css/poppins.css",
       "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
       "path": "/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
       "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/01/CLIRM-166-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/01/CLIRM-166-2048x1365.jpg",
+      "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-price-table.min.css",
@@ -967,13 +962,18 @@
       "source": "public-site"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-344.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-344.css",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/Visual-Table-4-194x300.jpg",
       "path": "/wp-content/uploads/sites/50/2024/03/Visual-Table-4-194x300.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/css/robotoslab.css",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/css/robotoslab.css",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/css/poppins.css",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/css/poppins.css",
       "source": "supplied-uploads"
     },
     {
@@ -982,23 +982,23 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/Visual-Table-4-993x1536.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/Visual-Table-4-993x1536.jpg",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/Visual-Table-4-768x1188.jpg",
       "path": "/wp-content/uploads/sites/50/2024/03/Visual-Table-4-768x1188.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/css/robotoslab.css",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/css/robotoslab.css",
       "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/Visual-Table-4-1324x2048.jpg",
       "path": "/wp-content/uploads/sites/50/2024/03/Visual-Table-4-1324x2048.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/Visual-Table-4-993x1536.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/Visual-Table-4-993x1536.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1017,23 +1017,13 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1.png",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1024x576.jpg",
       "path": "/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1024x576.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1536x864.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1536x864.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor/assets/css/widget-video.min.css",
-      "path": "/wp-content/plugins/elementor/assets/css/widget-video.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-738.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-738.css",
       "source": "supplied-uploads"
     },
     {
@@ -1042,118 +1032,48 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1536x864.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1536x864.jpg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1.pdf",
       "path": "/wp-content/uploads/sites/50/2024/03/2024-CLIRDLF-Forum-Sponsorship-Pack-1.pdf",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-300x200.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-300x200.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-768x512.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-768x512.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-2048x1365.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-1536x1024.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
-      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-297.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-297.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-158-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-includes/css/dist/block-library/style.min.css",
-      "path": "/wp-includes/css/dist/block-library/style.min.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-15.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-15.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-917.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-917.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1252.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1252.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRW-41-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRW-41-2048x1365.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1162,8 +1082,8 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-2048x1365.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1182,23 +1102,13 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRT-18-1536x1024.jpg",
       "path": "/wp-content/uploads/sites/50/2024/03/CLIRT-18-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1430.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1430.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRT-18-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1207,218 +1117,73 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-300x60.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-300x60.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-917.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-917.css",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1024x206.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1024x206.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-768x155.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-768x155.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-768x512.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/4science_blue_transparent-300x81.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/4science_blue_transparent-300x81.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1536x310.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1536x310.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-300x200.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-1536x1024.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1024x512.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1024x512.png",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-scaled.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-300x150.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-300x150.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-150x150.png",
-      "path": "/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-150x150.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/EastViewIS_600-300x103.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/EastViewIS_600-300x103.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-300x300.png",
-      "path": "/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-300x300.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1536x768.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1536x768.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-768x384.png",
-      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-768x384.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-300x49.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-300x49.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-768x125.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-768x125.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1024x167.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1024x167.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/lockss-logo-v1-500w-300x87.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/lockss-logo-v1-500w-300x87.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-300x103.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-300x103.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1536x250.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1536x250.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-768x264.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-768x264.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1536x529.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1536x529.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1024x353.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1024x353.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-2048x705.png",
-      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-2048x705.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-2048x334.png",
-      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-2048x334.png",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1317.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1317.css",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1252.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1252.css",
       "source": "public-site"
     },
     {
-      "url": "https://www.lansingymca.org/sites/lansingymca/files/2022-02/2022%20PW%20Day%20Camp%20Flyer%202.10.22.pdf",
-      "path": "/assets/external/www.lansingymca.org/sites/lansingymca/files/2022-02/2022 PW Day Camp Flyer 2.10.22.pdf",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-1-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-1-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-15.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-15.css",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
+      "path": "/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-300x200.jpeg",
-      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-300x200.jpeg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-768x511.jpeg",
-      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-768x511.jpeg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-1024x681.jpeg",
-      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-1024x681.jpeg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/WellsHallFloorPlanAnnotated.pdf",
-      "path": "/wp-content/uploads/sites/50/2024/04/WellsHallFloorPlanAnnotated.pdf",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-1536x1022.jpeg",
-      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-1536x1022.jpeg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-2048x1363.jpeg",
-      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-2048x1363.jpeg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1726.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1726.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-1536x1024.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-1536x1024.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1432,18 +1197,18 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-2048x1365.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/02/CLIRM-178-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/02/CLIRM-178-2048x1365.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1427.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1427.css",
+      "url": "https://forum2024.diglib.org/wp-includes/css/dist/block-library/style.min.css",
+      "path": "/wp-includes/css/dist/block-library/style.min.css",
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-768x512.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1452,23 +1217,263 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1427.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1427.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1317.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1317.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/WellsHallFloorPlanAnnotated.pdf",
+      "path": "/wp-content/uploads/sites/50/2024/04/WellsHallFloorPlanAnnotated.pdf",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/CLIRW-49-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/03/CLIRW-49-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://www.lansingymca.org/sites/lansingymca/files/2022-02/2022%20PW%20Day%20Camp%20Flyer%202.10.22.pdf",
+      "path": "/assets/external/www.lansingymca.org/sites/lansingymca/files/2022-02/2022 PW Day Camp Flyer 2.10.22.pdf",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-768x511.jpeg",
+      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-768x511.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-1024x681.jpeg",
+      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-1024x681.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-1536x1022.jpeg",
+      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-1536x1022.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-300x200.jpeg",
+      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-300x200.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/KFphoto-2048x1363.jpeg",
+      "path": "/wp-content/uploads/sites/50/2024/04/KFphoto-2048x1363.jpeg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1726.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1726.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-300x60.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-300x60.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1430.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1430.css",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1024x206.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1024x206.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-768x155.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-768x155.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/GHphoto-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/04/GHphoto-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-768x384.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-768x384.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/4science_blue_transparent-300x81.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/4science_blue_transparent-300x81.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1536x768.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1536x768.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-300x150.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-300x150.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1536x310.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/AM-Quartex_Master-1536x310.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-300x300.png",
+      "path": "/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-300x300.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1024x512.png",
+      "path": "/wp-content/uploads/sites/50/2024/04/TIND_logo_blue_artboard-1024x512.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-150x150.png",
+      "path": "/wp-content/uploads/sites/50/2024/05/wiki_edu_logo-150x150.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/EastViewIS_600-300x103.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/EastViewIS_600-300x103.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-768x125.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-768x125.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-300x49.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-300x49.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1024x167.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1024x167.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/lockss-logo-v1-500w-300x87.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/lockss-logo-v1-500w-300x87.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1536x250.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-1536x250.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-2048x334.png",
+      "path": "/wp-content/uploads/sites/50/2024/07/Recollect-Logo-with-name-2048x334.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-768x264.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-768x264.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-300x103.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-300x103.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1536x529.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1536x529.png",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1024x353.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-1024x353.png",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-58-300x200.jpg",
       "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-58-300x200.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1778.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-1778.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1536x1024.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-2048x705.png",
+      "path": "/wp-content/uploads/sites/50/2024/06/Logo_Libnova_Color-1-Sofia-Pedroza-2048x705.png",
       "source": "supplied-uploads"
     },
     {
@@ -1477,13 +1482,8 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-2048x1365.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/03/joshua-rodriguez-f7zm5TDOi4g-unsplash-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-58-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-58-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1492,8 +1492,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-58-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-58-1024x683.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-35-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1502,19 +1502,19 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2210.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-2210.css",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-58-2048x1365.jpg",
       "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-58-2048x1365.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-35-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-1024x683.jpg",
-      "source": "supplied-uploads"
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-1778.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-1778.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2193.css",
@@ -1522,8 +1522,8 @@
       "source": "public-site"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-1024x776.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-1024x776.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-1024x683.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1532,13 +1532,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-768x582.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-768x582.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-1024x776.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-1024x776.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1552,83 +1547,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2134.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-2134.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-768x511.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-768x511.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-1024x681.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-1024x681.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2210.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-2210.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-1536x1022.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-1536x1022.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-2048x1363.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-2048x1363.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-67-1024x681.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-1024x681.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2221.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-2221.css",
-      "source": "public-site"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg",
-      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-300x200.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-300x200.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-768x512.jpg",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2169.css",
       "path": "/wp-content/uploads/sites/50/elementor/css/post-2169.css",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-1536x1024.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-1536x1024.jpg",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-2048x1365.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-2048x1365.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1637,8 +1557,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-35-768x512.jpg",
-      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-768x512.jpg",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-768x582.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/programschedulescreenshot-768x582.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1647,23 +1567,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lxftlp_a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lxftlp_a.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-35-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-35-768x512.jpg",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_llptlp_a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_llptlp_a.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_ljftlp_a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_ljftlp_a.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lt_tlp_a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lt_tlp_a.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-1024x681.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-1024x681.jpg",
       "source": "supplied-uploads"
     },
     {
@@ -1677,14 +1587,104 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2500.css",
-      "path": "/wp-content/uploads/sites/50/elementor/css/post-2500.css",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-768x511.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-768x511.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2134.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-2134.css",
       "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-1536x1022.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-1536x1022.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRM-90-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-67-1024x681.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-67-1024x681.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-300x200.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-300x200.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-73-2048x1363.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-73-2048x1363.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-768x512.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-768x512.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-scaled.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg",
+      "path": "/wp-content/uploads/sites/50/2023/12/CLIRT-18-1024x683.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2221.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-2221.css",
+      "source": "public-site"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_ljftlp_a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_ljftlp_a.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_llptlp_a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_llptlp_a.woff2",
+      "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/10/English-1.jpg",
       "path": "/wp-content/uploads/sites/50/2024/10/English-1.jpg",
       "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lxftlp_a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lxftlp_a.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-1536x1024.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-1536x1024.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lt_tlp_a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_lt_tlp_a.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/2024/07/CLIRM-95-2048x1365.jpg",
+      "path": "/wp-content/uploads/sites/50/2024/07/CLIRM-95-2048x1365.jpg",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/css/post-2500.css",
+      "path": "/wp-content/uploads/sites/50/elementor/css/post-2500.css",
+      "source": "public-site"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_llvtlp_a.woff2",
@@ -1697,8 +1697,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwf7i-np.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwf7i-np.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumw77i-np.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumw77i-np.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1717,23 +1717,18 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwf7i-np.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwf7i-np.woff2",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joum2t7i-np.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joum2t7i-np.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumw77i-np.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumw77i-np.woff2",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l1uumjng.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l1uumjng.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwt7i-np.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwt7i-np.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1747,8 +1742,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwr7iw.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwr7iw.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwt7i-np.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwt7i-np.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l6uumjng.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l6uumjng.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1757,8 +1757,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l6uumjng.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc53fwrk3iltcvneqg7ca725jhhknnqk6l6uumjng.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwr7iw.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/lora-0qivmx1d_joumwr7iw.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1772,13 +1772,18 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia0zl7suc.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia0zl7suc.woff2",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2jl7suc.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2jl7suc.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia0zl7suc.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia0zl7suc.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2pl7suc.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2pl7suc.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1792,23 +1797,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia25l7suc.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia25l7suc.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2pl7suc.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia2pl7suc.woff2",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rm1chb-.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rm1chb-.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia25l7suc.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia25l7suc.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1817,13 +1812,28 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rc1chb-.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rc1chb-.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rm1chb-.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rm1chb-.woff2",
       "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_r21cg.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_r21cg.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzytfopnb.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzytfopnb.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzyffopnb.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzyffopnb.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rc1chb-.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrtqgyozzy2vcfuvaft_rc1chb-.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1837,13 +1847,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzyffopnb.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzyffopnb.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzytfopnb.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrqqgyozzy2vcfuvaft9gaqzytfopnb.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qwvyvhpa.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qwvyvhpa.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1857,18 +1862,13 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qfvyvhpa.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qfvyvhpa.woff2",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafbzr-tdg.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafbzr-tdg.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafwzr8.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafwzr8.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qwvyvhpa.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qwvyvhpa.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1882,18 +1882,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qfvyvhpa.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrsqgyozzy2vcfuvant66qfvyvhpa.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggqxsuxd.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggqxsuxd.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggixsuxd.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggixsuxd.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafwzr8.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/ptserif-ejrvqgyozzy2vcfuvafwzr8.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1902,18 +1892,28 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggqxsuxd.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggqxsuxd.woff2",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggsxsuxd.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggsxsuxd.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggmxsuxd.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggmxsuxd.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggixsuxd.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggixsuxd.woff2",
       "source": "supplied-uploads"
     },
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxiayp8kv8jhgfvrjjlme0tmmpkzsq.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxiayp8kv8jhgfvrjjlme0tmmpkzsq.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggmxsuxd.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/manrope-xn7gyhe41ni1adirggmxsuxd.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1932,11 +1932,6 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvf9eo.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvf9eo.woff2",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm21lvf9eo.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm21lvf9eo.woff2",
       "source": "supplied-uploads"
@@ -1947,8 +1942,18 @@
       "source": "supplied-uploads"
     },
     {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvf9eo.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvf9eo.woff2",
+      "source": "supplied-uploads"
+    },
+    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrjjlufntakpy.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrjjlufntakpy.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmg1hvgdeoceg.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmg1hvgdeoceg.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1962,13 +1967,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmg1hvgdeoceg.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmg1hvgdeoceg.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vf9eo.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vf9eo.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vgdeoceg.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vgdeoceg.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1977,18 +1977,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vgdeoceg.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vgdeoceg.woff2",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vgdeoceg.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vgdeoceg.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vf9eo.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vf9eo.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vf9eo.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmr19vf9eo.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -1997,23 +1992,23 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvgdeoceg.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvgdeoceg.woff2",
-      "source": "supplied-uploads"
-    },
-    {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvf9eo.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvf9eo.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptufntakpy.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptufntakpy.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvgdeoceg.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm81xvgdeoceg.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1xlfq.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1xlfq.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vf9eo.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vf9eo.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptuchta.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptuchta.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2022,13 +2017,23 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1xlfq.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1xlfq.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptuchta.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptuchta.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptufntakpy.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptufntakpy.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1jlfc-k.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1jlfc-k.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2039,16 +2044,6 @@
     {
       "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjnecmne.woff2",
       "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjnecmne.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1jlfc-k.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1jlfc-k.woff2",
-      "source": "supplied-uploads"
-    },
-    {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1jlfc-k.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1jlfc-k.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2067,13 +2062,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1jlfc-k.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1jlfc-k.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1jlfc-k.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1jlfc-k.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1xlfq.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1xlfq.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2082,8 +2077,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1xlfq.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1xlfq.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1jlfc-k.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1jlfc-k.woff2",
+      "source": "supplied-uploads"
+    },
+    {
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2102,8 +2102,8 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufa5qw54a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufa5qw54a.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufj5qw54a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufj5qw54a.woff2",
       "source": "supplied-uploads"
     },
     {
@@ -2117,13 +2117,13 @@
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufj5qw54a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufj5qw54a.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufd5qw54a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufd5qw54a.woff2",
       "source": "supplied-uploads"
     },
     {
-      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufd5qw54a.woff2",
-      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufd5qw54a.woff2",
+      "url": "https://forum2024.diglib.org/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufa5qw54a.woff2",
+      "path": "/wp-content/uploads/sites/50/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufa5qw54a.woff2",
       "source": "supplied-uploads"
     },
     {

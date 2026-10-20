@@ -45,3 +45,6 @@ test('protected email buttons and skip links work without plugin scripts',()=>{
  const r=normalizeDocument('<html><body><a href="#content">Skip</a><div data-elementor-type="wp-page"><h2>Rates</h2><a href="/cdn-cgi/l/email-protection#016041632f626e6c">Email us</a></div></body></html>','https://forum2024.diglib.org/',new Map());
  assert.match(r.body,/id="content"/);assert.match(r.body,/href="mailto:a@b.com"/);assert.match(r.body,/Email us/);
 });
+test('counters retain their final numbers in the static archive',()=>{
+ const r=normalizeDocument('<html><body><span class="elementor-counter-number" data-to-value="1250" data-delimiter=",">0</span></body></html>','https://forum2024.diglib.org/',new Map());assert.match(r.body,/>1,250<\/span>/);
+});

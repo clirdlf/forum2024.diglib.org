@@ -38,6 +38,7 @@ export function prepareDocument(html) {
   if($(el).find('input[name="s"]').length){$(el).attr({action:'/search/',method:'get'});$(el).find('input[name="s"]').attr('name','q');}
   else {const target=action.startsWith('http')&&!action.includes('forum2024.diglib.org')?action:NEWSLETTER;$(el).replaceWith($('<p>').append($('<a class="archive-service">').attr('href',target).text('Open form on the external service ↗')));}
  });
+ $('.elementor-counter-number[data-to-value]').each((_,el)=>{const value=$(el).attr('data-to-value'),delimiter=$(el).attr('data-delimiter');$(el).text(delimiter?value.replace(/\B(?=(\d{3})+(?!\d))/g,delimiter):value);});
  $('[onload], [onclick], [onerror]').removeAttr('onload').removeAttr('onclick').removeAttr('onerror');
  // Captured markup retains layout settings, but these should never be remote fetches.
  $('[data-settings]').each((_,el)=>{
