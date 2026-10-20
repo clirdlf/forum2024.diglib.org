@@ -1,3 +1,4 @@
+import { readFile, writeFile } from 'node:fs/promises';
 import { load } from 'cheerio';
 export function normalizePrefix(value = '/') {
   if (!value) return '/';
@@ -8,8 +9,7 @@ export function normalizePrefix(value = '/') {
 }
 export function prefixUrl(value, prefix = '/') {
   prefix = normalizePrefix(prefix);
-  if (prefix === '/' || !value || !/^\/(?!\/)/.test(value) || value.startsWith(prefix))
-    return value;
+  if (prefix === '/' || !value || !/^\/(?!\/)/.test(value)) return value;
   return prefix + value.slice(1);
 }
 export function prefixCss(css, prefix) {
@@ -46,4 +46,9 @@ export function prefixHtml(html, prefix) {
   });
   $('style').each((_, el) => $(el).html(prefixCss($(el).html(), prefix)));
   return $.html();
+}
+
+// Rebuild from source, never from previously prefixed output.
+export async function writePrefixedCss(source, output, prefix) {
+  await writeFile(output, prefixCss(await readFile(source, 'utf8'), prefix));
 }

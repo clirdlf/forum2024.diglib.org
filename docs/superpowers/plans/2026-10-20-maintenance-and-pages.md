@@ -8,10 +8,10 @@ Readable page source lives in src/content/<route>/{page.json,head.html,body.html
 
 ## Tasks
 
-- [ ] 1. Fix audit false positives with failing fixtures; support auditing a Pages path prefix. Add combined check command.
-- [ ] 2. Retain original captures, implement offline normalization and readable per-page sources, extract shared includes with per-route active navigation. Test page round trips, durable capture inventory, deterministic outputs, failed-normalization rollback, and cache identity.
-- [ ] 3. Format code, split runtime modules, isolate search indexing; implement and test root/repository-path rendering for pages, CSS, runtime modules, search data, utility pages, and 404. Preserve screenshot/interaction behavior.
-- [ ] 4. Add Node pin and CI/Pages workflow; document source editing, capture/normalize distinction, regeneration overwrite rules, Pages setup/custom domain, and commands. Verify root and prefixed builds and offline regeneration, compare rendered documents, then obtain read-only review and resolve material findings.
+- [x] 1. Fix audit false positives with failing fixtures; support auditing a Pages path prefix. Add combined check command.
+- [x] 2. Retain original captures, implement offline normalization and readable per-page sources, extract shared includes with per-route active navigation. Test page round trips, durable capture inventory, deterministic outputs, failed-normalization rollback, and cache identity.
+- [x] 3. Format code, split runtime modules, isolate search indexing; implement and test root/repository-path rendering for pages, CSS, runtime modules, search data, utility pages, and 404. Preserve screenshot/interaction behavior.
+- [x] 4. Add Node pin and CI/Pages workflow; document source editing, capture/normalize distinction, regeneration overwrite rules, Pages setup/custom domain, and commands. Verify root and prefixed builds and offline regeneration, compare rendered documents, then obtain read-only review and resolve material findings.
 
 ## Validation
 

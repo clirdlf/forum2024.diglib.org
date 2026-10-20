@@ -1,8 +1,8 @@
-import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { assembleBody } from './scripts/lib/content.mjs';
 import { searchIndex } from './scripts/lib/search.mjs';
-import { normalizePrefix, prefixHtml, prefixCss } from './scripts/lib/paths.mjs';
+import { normalizePrefix, prefixHtml, writePrefixedCss } from './scripts/lib/paths.mjs';
 
 export default function (eleventyConfig) {
   const pathPrefix = normalizePrefix(process.env.SITE_PATH_PREFIX);
@@ -25,15 +25,20 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.on('eleventy.after', async ({ dir }) => {
     if (pathPrefix === '/') return;
-    async function rewrite(directory) {
-      for (const entry of await readdir(directory, { withFileTypes: true })) {
-        const file = path.join(directory, entry.name);
-        if (entry.isDirectory()) await rewrite(file);
-        else if (file.endsWith('.css'))
-          await writeFile(file, prefixCss(await readFile(file, 'utf8'), pathPrefix));
+    async function rewrite(sourceDirectory, outputDirectory) {
+      for (const entry of await readdir(sourceDirectory, { withFileTypes: true })) {
+        const source = path.join(sourceDirectory, entry.name),
+          output = path.join(outputDirectory, entry.name);
+        if (entry.isDirectory()) await rewrite(source, output);
+        else if (source.endsWith('.css')) await writePrefixedCss(source, output, pathPrefix);
       }
     }
-    await rewrite(dir.output);
+    await rewrite('src/assets/site', dir.output);
+    await writePrefixedCss(
+      'src/assets/archive.css',
+      path.join(dir.output, 'assets/archive.css'),
+      pathPrefix,
+    );
   });
   return {
     pathPrefix,
