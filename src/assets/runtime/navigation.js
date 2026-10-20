@@ -34,12 +34,14 @@ export function initializeMenus() {
       const submenu = item.querySelector(':scope > .sub-menu');
       if (!link || !submenu) return;
       submenu.id ||= `archive-submenu-${index}-${i}`;
-      link.setAttribute('aria-controls', submenu.id);
-      link.setAttribute('aria-expanded', 'false');
-      link.setAttribute('aria-haspopup', 'true');
+      const button = item.querySelector(':scope > .archive-submenu-toggle');
+      if (!button) return;
+      const label = link.textContent.trim();
+      button.setAttribute('aria-controls', submenu.id);
       const setOpen = (open) => {
         item.classList.toggle('archive-open', open);
-        link.setAttribute('aria-expanded', String(open));
+        button.setAttribute('aria-expanded', String(open));
+        button.setAttribute('aria-label', `${open ? 'Hide' : 'Show'} ${label} submenu`);
       };
       item.addEventListener('mouseenter', () => {
         if (window.innerWidth > 767) setOpen(true);
@@ -50,15 +52,7 @@ export function initializeMenus() {
       item.addEventListener('focusout', (e) => {
         if (!item.contains(e.relatedTarget)) setOpen(false);
       });
-      link.addEventListener('click', (e) => {
-        if (
-          e.target.closest('.sub-arrow') ||
-          (!item.classList.contains('archive-open') && window.innerWidth <= 767)
-        ) {
-          e.preventDefault();
-          setOpen(!item.classList.contains('archive-open'));
-        }
-      });
+      button.addEventListener('click', () => setOpen(!item.classList.contains('archive-open')));
       link.addEventListener('keydown', (e) => {
         if (['ArrowDown', ' '].includes(e.key)) {
           e.preventDefault();
@@ -71,7 +65,7 @@ export function initializeMenus() {
           e.preventDefault();
           e.stopPropagation();
           setOpen(false);
-          link.focus();
+          button.focus();
         }
       });
     });

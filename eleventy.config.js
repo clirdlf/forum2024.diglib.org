@@ -1,3 +1,4 @@
+import { accessibleHtml, accessibleCss } from './scripts/lib/accessibility.mjs';
 import {
   loadImageManifest,
   validateImageManifest,
@@ -29,6 +30,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('src/_includes/');
   eleventyConfig.addFilter('withSharedLayout', assembleBody);
   eleventyConfig.addFilter('searchIndex', (docs) => searchIndex(docs, pathPrefix));
+  eleventyConfig.addTransform('accessibility', function (content) {
+    return this.page.outputPath?.endsWith('.html') ? accessibleHtml(content) : content;
+  });
   eleventyConfig.addTransform('retained-images', function (content) {
     return this.page.outputPath?.endsWith('.html') ? optimizeHtml(content, imageManifest) : content;
   });
@@ -43,7 +47,7 @@ export default async function (eleventyConfig) {
         if (entry.isDirectory()) await rewrite(source, output);
         else if (source.endsWith('.css'))
           await writePrefixedCss(source, output, pathPrefix, (css) =>
-            optimizeCss(css, imageManifest),
+            optimizeCss(accessibleCss(css), imageManifest),
           );
       }
     }
@@ -52,7 +56,7 @@ export default async function (eleventyConfig) {
       'src/assets/archive.css',
       path.join(dir.output, 'assets/archive.css'),
       pathPrefix,
-      (css) => optimizeCss(css, imageManifest),
+      (css) => optimizeCss(accessibleCss(css), imageManifest),
     );
   });
   return {

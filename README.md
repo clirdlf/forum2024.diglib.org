@@ -85,7 +85,7 @@ Tests cover inventory filtering, localization, shared layout/current navigation,
 
 Browser checks cover representative desktop/mobile layouts and navigation, carousels, tabs, accordions, and search. External service availability and video/form submissions remain outside this static archive. Historical event text and registration notices are preserved.
 
-Verified with Node 22.23.3: 26 tests, root and repository-path builds (including a path matching an existing route), and all 6,254 generated references pass. Two complete offline normalizations produced byte-identical source. The development server rebuilds after edits to individual page HTML. GitHub Actions execution and the DNS cutover require the target repository and remain to be performed there.
+Verified with Node 22.23.3: 38 tests, root and repository-path builds (including a path matching an existing route), and all 6,254 generated references pass. Two complete offline normalizations produced byte-identical source. The development server rebuilds after edits to individual page HTML. GitHub Actions execution and the DNS cutover require the target repository and remain to be performed there.
 
 ## Retained photograph variants
 
@@ -101,3 +101,9 @@ To deliberately change the policy or optimize changed photo inputs, stop the pre
 A changed source file causes validation to request regeneration rather than silently serving a stale derivative. Ordinary offline normalization keeps optimization intact when the original photo bytes are unchanged. After a fresh online recapture that changes photographs, rerun `pnpm images:generate`. Clean `_site/` after a changed generation policy if old unreferenced build artifacts are present.
 
 Image validation also covers preserved JPEG fallbacks and image attributes, crop-compatible master selection, CSS fallback idempotence, stale inputs, and missing derivatives. Two complete image generations produced identical manifests and file hashes. Desktop/mobile browser checks selected local AVIF sources with no broken photos; the project-path preview also selected correctly prefixed AVIF sources. An ordinary build passed with imports of Eleventy Image and Sharp explicitly blocked.
+
+## Accessibility review
+
+The archive includes shared accessibility corrections for landmarks, heading levels, keyboard navigation, disclosures, carousel motion, image descriptions, contrast, and narrow-screen reflow. The original capture remains intact. See [the accessibility review](docs/accessibility-review.md) for changes, test coverage, and review limits.
+
+Run `pnpm audit:a11y` and open `http://localhost:8082/` for a local axe-core report on each page. Expand the report and rerun it after interacting with controls. The audit tooling is never shipped to GitHub Pages.

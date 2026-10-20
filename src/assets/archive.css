@@ -8,11 +8,10 @@ html {
 [hidden] {
   display: none !important;
 }
-a:focus-visible,
-button:focus-visible,
-[tabindex]:focus-visible {
+:focus-visible {
   outline: 3px solid #175c71 !important;
   outline-offset: 3px;
+  box-shadow: 0 0 0 6px #fff !important;
 }
 .elementor-nav-menu--main .menu-item {
   position: relative;
@@ -71,11 +70,6 @@ nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
   right: 10px;
   display: flex;
   gap: 4px;
-  opacity: 0;
-  transition: opacity 0.15s;
-}
-.archive-carousel:hover .archive-carousel-controls,
-.archive-carousel:focus-within .archive-carousel-controls {
   opacity: 1;
 }
 .archive-carousel-controls button {
@@ -86,6 +80,8 @@ nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
   padding: 5px 10px;
   font: inherit;
   font-size: 14px;
+  min-width: 32px;
+  min-height: 32px;
   cursor: pointer;
 }
 .archive-service {
@@ -175,4 +171,95 @@ nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
 /* Keep generated picture wrappers from adding a layout box around original images. */
 .archive-picture {
   display: contents;
+}
+
+/* Local accessibility corrections; original page sources remain unchanged. */
+.archive-disclosure-button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  cursor: pointer;
+}
+button.elementor-tab-mobile-title {
+  width: 100%;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+}
+.elementor-widget-nav-menu .menu-item {
+  position: relative;
+}
+.elementor-widget-nav-menu .menu-item-has-children > a {
+  padding-right: 36px !important;
+}
+.archive-submenu-toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  min-height: 32px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+a.archive-service.elementor-button,
+a.archive-service.elementor-button:hover,
+a.archive-service.elementor-button:focus {
+  color: #fff;
+  background: #39434f;
+}
+
+.archive-submenu-toggle:hover,
+.archive-submenu-toggle:focus,
+.archive-submenu-toggle:active {
+  color: #111;
+  background: #fff;
+}
+.archive-disclosure-button:hover,
+.archive-disclosure-button:focus,
+.archive-disclosure-button:active {
+  color: inherit;
+  background: transparent;
+}
+.elementor-widget-table-of-contents .elementor-toc__toggle-button {
+  display: flex;
+  border: 0;
+  border-radius: 0;
+  min-width: 32px;
+  min-height: 32px;
+  padding: 6px;
+  background: transparent;
+  color: inherit;
+}
+.elementor-toc__toggle-button svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+.elementor-toc__toggle-button[aria-expanded='true'] svg {
+  transform: rotate(180deg);
+}
+.elementor-widget-table-of-contents .elementor-toc__body:not([hidden]) {
+  display: block !important;
+}
+/* Keep short resource links far enough apart for touch users. */
+.elementor-tab-content li {
+  margin-block: 0.5rem;
 }

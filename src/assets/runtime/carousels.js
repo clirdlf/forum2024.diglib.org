@@ -27,19 +27,17 @@ export function initializeCarousels() {
       index = (index + step + slides.length) % slides.length;
       render();
     };
+    const setPaused = (value) => {
+      paused = value;
+      pause.textContent = paused ? 'Play' : 'Pause';
+      pause.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+      track.setAttribute('aria-live', paused ? 'polite' : 'off');
+    };
     const controls = document.createElement('div');
     controls.className = 'archive-carousel-controls';
     for (const [name, text, action] of [
+      ['Pause slideshow', 'Pause', () => setPaused(!paused)],
       ['Previous slide', '←', () => move(-1)],
-      [
-        'Pause slideshow',
-        'Pause',
-        () => {
-          paused = !paused;
-          pause.textContent = paused ? 'Play' : 'Pause';
-          pause.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
-        },
-      ],
       ['Next slide', '→', () => move(1)],
     ]) {
       const b = document.createElement('button');
@@ -49,12 +47,13 @@ export function initializeCarousels() {
       b.addEventListener('click', action);
       controls.append(b);
     }
-    const pause = controls.children[1];
-    if (paused) {
-      pause.textContent = 'Play';
-      pause.setAttribute('aria-label', 'Play slideshow');
-    }
-    carousel.append(controls);
+    const pause = controls.children[0];
+    setPaused(paused);
+    carousel.prepend(controls);
+    carousel.addEventListener('focusin', (event) => {
+      // Rotation stays stopped after keyboard users leave, until Play is requested.
+      if (!carousel.contains(event.relatedTarget)) setPaused(true);
+    });
     carousel.addEventListener('mouseenter', () => (hover = true));
     carousel.addEventListener('mouseleave', () => (hover = false));
     carousel.addEventListener('keydown', (e) => {
