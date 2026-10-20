@@ -85,7 +85,7 @@ Tests cover inventory filtering, localization, shared layout/current navigation,
 
 Browser checks cover representative desktop/mobile layouts and navigation, carousels, tabs, accordions, and search. External service availability and video/form submissions remain outside this static archive. Historical event text and registration notices are preserved.
 
-Verified with Node 22.23.3: 21 tests, root and repository-path builds (including a path matching an existing route), and all 5,782 generated references pass. Two complete offline normalizations produced byte-identical source. The development server rebuilds after edits to individual page HTML. GitHub Actions execution and the DNS cutover require the target repository and remain to be performed there.
+Verified with Node 22.23.3: 26 tests, root and repository-path builds (including a path matching an existing route), and all 6,254 generated references pass. Two complete offline normalizations produced byte-identical source. The development server rebuilds after edits to individual page HTML. GitHub Actions execution and the DNS cutover require the target repository and remain to be performed there.
 
 ## Retained photograph variants
 
@@ -99,3 +99,5 @@ Eleventy Image is used only by `pnpm images:generate`. The completed archive ret
 To deliberately change the policy or optimize changed photo inputs, stop the preview server, run `pnpm images:generate`, then `pnpm check` and `pnpm check:pages`. Generation uses only local committed source images; it stages and publishes the derivative directory and manifest together. It does not edit page content, the original capture, or original assets. Review and commit both generated outputs. New photograph families can be added to the conservative policy in `scripts/lib/images.mjs`; encoding options are in `scripts/generate-images.mjs`.
 
 A changed source file causes validation to request regeneration rather than silently serving a stale derivative. Ordinary offline normalization keeps optimization intact when the original photo bytes are unchanged. After a fresh online recapture that changes photographs, rerun `pnpm images:generate`. Clean `_site/` after a changed generation policy if old unreferenced build artifacts are present.
+
+Image validation also covers preserved JPEG fallbacks and image attributes, crop-compatible master selection, CSS fallback idempotence, stale inputs, and missing derivatives. Two complete image generations produced identical manifests and file hashes. Desktop/mobile browser checks selected local AVIF sources with no broken photos; the project-path preview also selected correctly prefixed AVIF sources. An ordinary build passed with imports of Eleventy Image and Sharp explicitly blocked.
