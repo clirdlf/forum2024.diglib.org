@@ -7,7 +7,7 @@ function initializeMenus(){
   const mobile=widget.querySelector('nav.elementor-nav-menu--dropdown');
   if(toggle&&mobile){
    mobile.id ||= `archive-menu-${index}`;toggle.setAttribute('aria-controls',mobile.id);
-   function setOpen(open){if(open){mobile.style.width=`${Math.max(200,window.innerWidth-40)}px`;mobile.style.left=`${20-widget.getBoundingClientRect().left}px`;}mobile.hidden=!open;mobile.classList.toggle('archive-mobile-open',open);toggle.classList.toggle('elementor-active',open);toggle.setAttribute('aria-expanded',String(open));all('a',mobile).forEach(a=>a.tabIndex=open?0:-1);}
+   function setOpen(open){if(open){mobile.style.width=`${Math.max(200,window.innerWidth-40)}px`;mobile.style.left=`${20-widget.getBoundingClientRect().left}px`;}mobile.hidden=!open;mobile.setAttribute('aria-hidden',String(!open));mobile.classList.toggle('archive-mobile-open',open);toggle.classList.toggle('elementor-active',open);toggle.setAttribute('aria-expanded',String(open));all('a',mobile).forEach(a=>a.tabIndex=open?0:-1);}
    setOpen(false);const toggleOpen=()=>setOpen(toggle.getAttribute('aria-expanded')!=='true');
    toggle.addEventListener('click',toggleOpen);activateOnKey(toggle,toggleOpen);
    widget.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){setOpen(false);toggle.focus();}});
@@ -55,7 +55,7 @@ function initializeDisclosures(){
  });
  all('.elementor-tabs').forEach(tabs=>{
   const titles=all('.elementor-tab-title',tabs);const panels=all('.elementor-tab-content',tabs);
-  const select=id=>{titles.forEach(t=>{const active=t.dataset.tab===id;t.classList.toggle('elementor-active',active);t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;});panels.forEach(p=>{const active=p.dataset.tab===id;p.hidden=!active;p.style.display=active?'block':'none';p.classList.toggle('elementor-active',active);});};
+  const select=id=>{titles.forEach(t=>{const active=t.dataset.tab===id;t.classList.toggle('elementor-active',active);t.setAttribute('aria-selected',String(active));t.setAttribute('aria-expanded',String(active));t.tabIndex=active?0:-1;});panels.forEach(p=>{const active=p.dataset.tab===id;p.hidden=!active;p.style.display=active?'block':'none';p.classList.toggle('elementor-active',active);});};
   titles.forEach(t=>{t.addEventListener('click',()=>select(t.dataset.tab));t.addEventListener('keydown',e=>{if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();const visible=titles.filter(t=>t.getClientRects().length);let next=e.key==='Home'?0:e.key==='End'?visible.length-1:(visible.indexOf(t)+(e.key==='ArrowRight'?1:-1)+visible.length)%visible.length;select(visible[next].dataset.tab);visible[next].focus();}if(['Enter',' '].includes(e.key)){e.preventDefault();select(t.dataset.tab);}});});
   select(titles[0]?.dataset.tab);
  });

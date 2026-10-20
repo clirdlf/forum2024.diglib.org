@@ -54,6 +54,6 @@ Use **`pnpm run import`**, because `pnpm import` is pnpm's unrelated lockfile-co
 
 ## Verification
 
-Automated checks cover every published route and all generated internal page, fragment, image, stylesheet, font, script, and CSS URL references. They reject missing local destinations, the excluded widget, automatic external frames, remote rendering dependencies, and WordPress form endpoints.
+The completed capture passes 10 regression tests and an audit of 5,738 references across 36 HTML pages and 377 captured assets. Automated checks cover every published route and all generated internal page, fragment, image, stylesheet, font, script, and CSS URL references. They reject missing local destinations, the excluded widget, automatic external frames, remote rendering dependencies, and WordPress form endpoints.
 
 Browser checks were performed in Chrome at desktop and 390 px mobile widths, including the home, program, attendee resources, guide tabs, speaker, and news layouts. Mobile navigation, keyboard dropdowns/accordions, local search, and carousel controls were exercised. External services are preserved destinations and are not tested for continued availability. The archive does not reproduce remote form submissions, video playback, or WordPress administration.

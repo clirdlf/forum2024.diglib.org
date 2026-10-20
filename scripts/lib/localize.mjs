@@ -30,6 +30,7 @@ export function prepareDocument(html) {
   const h=($(el).attr('href')||'').split('#')[1];if(!h||!/^[0-9a-f]+$/i.test(h))return;
   const key=parseInt(h.slice(0,2),16);const email=h.slice(2).match(/../g)?.map(c=>String.fromCharCode(parseInt(c,16)^key)).join('');if(email)$(el).attr('href','mailto:'+email);
  });
+ $('.e-con.e-parent').addClass('e-lazyloaded');
  const content=$('[data-elementor-type="wp-page"],[data-elementor-type="single-post"],main').first();
  if(!$('#content').length&&content.length)content.attr({id:'content',tabindex:'-1'});
  if(content.length)content.find('h2,h3,h4,h5').each((i,h)=>{const id='elementor-toc__heading-anchor-'+i;if(!$('#'+id).length)$(h).prepend($('<span>').attr({id,'aria-hidden':'true'}));});

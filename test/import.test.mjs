@@ -48,3 +48,6 @@ test('protected email buttons and skip links work without plugin scripts',()=>{
 test('counters retain their final numbers in the static archive',()=>{
  const r=normalizeDocument('<html><body><span class="elementor-counter-number" data-to-value="1250" data-delimiter=",">0</span></body></html>','https://forum2024.diglib.org/',new Map());assert.match(r.body,/>1,250<\/span>/);
 });
+test('static backgrounds bypass the removed Elementor lazyload observer',()=>{
+ const r=normalizeDocument('<html><body><div class="e-con e-parent"><h2>Visible background</h2></div></body></html>','https://forum2024.diglib.org/',new Map());assert.match(r.body,/class="e-con e-parent e-lazyloaded"/);
+});

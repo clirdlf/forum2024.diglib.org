@@ -53,14 +53,14 @@
 - `normalizeDocument(html: string, pageUrl: string, assetMap: Map<string,string>) -> {title, route, bodyClasses, head, body}` in the same module.
 - Import emits `src/_data/archive.json`, `src/assets/`, and `data/archive-manifest.json` for later tasks.
 
-- [ ] Write failing `node:test` cases in `test/import.test.mjs`: include published pages/posts, exclude drafts and administrative records, preserve nested/dated paths, and rewrite absolute and protocol-relative same-site links, fragments, CSS URLs, and `srcset` candidates.
-- [ ] Run `node --test test/import.test.mjs`; confirm failure because importer modules are absent.
-- [ ] Create package/configuration files and install dependencies with pnpm. Ignore `node_modules/`, `_site/`, temporary extraction/capture directories, and the supplied tar archive. Retain the XML input.
-- [ ] Implement the inventory and URL interfaces. Keep external service URLs unchanged. Reject archive paths that escape the selected extraction directory.
-- [ ] Implement `scripts/import.mjs`: use the XML inventory as the authoritative document list; fetch public markup/styles only during import; inspect public links for news pagination and categories; extract referenced upload files from the supplied tar; capture required CSS/fonts/icons and transitive CSS dependencies. Record capture failures instead of silently omitting documents.
-- [ ] Normalize documents: remove widget/administrative/tracking resources, decode protected email links, localize references, and retain styling classes and meaningful page structure. Capture external form/video destinations for the replacement runtime.
-- [ ] Run the focused tests and importer. Confirm all 34 published documents are present, referenced images come from the supplied archive, and missing source resources are enumerated.
-- [ ] Commit the importer, focused tests, manifest, and retained local source/assets; exclude temporary captures and the large tar input.
+- [x] Write failing `node:test` cases in `test/import.test.mjs`: include published pages/posts, exclude drafts and administrative records, preserve nested/dated paths, and rewrite absolute and protocol-relative same-site links, fragments, CSS URLs, and `srcset` candidates.
+- [x] Run `node --test test/import.test.mjs`; confirm failure because importer modules are absent.
+- [x] Create package/configuration files and install dependencies with pnpm. Ignore `node_modules/`, `_site/`, temporary extraction/capture directories, and the supplied tar archive. Retain the XML input.
+- [x] Implement the inventory and URL interfaces. Keep external service URLs unchanged. Reject archive paths that escape the selected extraction directory.
+- [x] Implement `scripts/import.mjs`: use the XML inventory as the authoritative document list; fetch public markup/styles only during import; inspect public links for news pagination and categories; extract referenced upload files from the supplied tar; capture required CSS/fonts/icons and transitive CSS dependencies. Record capture failures instead of silently omitting documents.
+- [x] Normalize documents: remove widget/administrative/tracking resources, decode protected email links, localize references, and retain styling classes and meaningful page structure. Capture external form/video destinations for the replacement runtime.
+- [x] Run the focused tests and importer. Confirm all 34 published documents are present, referenced images come from the supplied archive, and missing source resources are enumerated.
+- [x] Commit the importer, focused tests, manifest, and retained local source/assets; exclude temporary captures and the large tar input.
 
 ### Task 2: Generate the complete archive with Eleventy
 
@@ -69,12 +69,12 @@
 - `src/pages.njk` paginates this array with page size one and uses each document's `route` as its permalink.
 - `pnpm build` invokes Eleventy; `pnpm dev` invokes Eleventy with local serving; `pnpm verify` invokes the output verifier.
 
-- [ ] Add a failing route verification in `scripts/verify.mjs`: every inventory document must have a generated HTML file under `_site/` at its expected path.
-- [ ] Run verification against the absent build; confirm it reports missing outputs.
-- [ ] Create Eleventy configuration, document shell, and page generation template. Use preserved head/body markup without escaping trusted captured content. Pass through referenced assets. Exclude scripts and source-only files from generated output.
-- [ ] Generate local search data from published titles and visible content; remove source metadata and script/style text. Implement `src/search.njk` with a labelled query input and local results. Add `src/404.njk` with a home link.
-- [ ] Run `pnpm build` and `pnpm verify`; confirm every published route and required auxiliary route exists and resolves locally.
-- [ ] Commit the generator and search source.
+- [x] Add a failing route verification in `scripts/verify.mjs`: every inventory document must have a generated HTML file under `_site/` at its expected path.
+- [x] Run verification against the absent build; confirm it reports missing outputs.
+- [x] Create Eleventy configuration, document shell, and page generation template. Use preserved head/body markup without escaping trusted captured content. Pass through referenced assets. Exclude scripts and source-only files from generated output.
+- [x] Generate local search data from published titles and visible content; remove source metadata and script/style text. Implement `src/search.njk` with a labelled query input and local results. Add `src/404.njk` with a home link.
+- [x] Run `pnpm build` and `pnpm verify`; confirm every published route and required auxiliary route exists and resolves locally.
+- [x] Commit the generator and search source.
 
 ### Task 3: Restore interactive behavior and visual fidelity
 
@@ -82,13 +82,13 @@
 - `src/assets/archive.js` initializes controls from the retained original markup and uses local data/libraries only.
 - `src/assets/archive.css` contains scoped compatibility rules for removed plugin initialization and replacement controls; original styles remain the visual foundation.
 
-- [ ] Inspect the actual retained controls and select representative original desktop/mobile pages: home, resources for attendees, in-person program, featured speakers, and news.
-- [ ] Implement navigation dropdowns/mobile toggles with keyboard activation, Escape dismissal, focus indication, and accurate `aria-expanded` state.
-- [ ] Implement the carousels, tabs, accordions, in-page links, and search present in the captured content. Use a local carousel library only if necessary; ensure slide content remains visible before initialization and avoid duplicate active instances.
-- [ ] Replace external service embeds/forms with their captured destination links as needed. Preserve video poster/thumbnail presentation and a clear external video link. Remove any remaining dependency on WordPress AJAX.
-- [ ] Compare representative desktop and mobile screenshots against the original. Exercise controls with pointer and keyboard; confirm that removing entrance animations does not hide content and that mobile menus fit the viewport.
-- [ ] Correct observed visual or behavior differences and document any unavailable resources or external service limitations.
-- [ ] Commit the runtime and visual adjustments.
+- [x] Inspect the actual retained controls and select representative original desktop/mobile pages: home, resources for attendees, in-person program, featured speakers, and news.
+- [x] Implement navigation dropdowns/mobile toggles with keyboard activation, Escape dismissal, focus indication, and accurate `aria-expanded` state.
+- [x] Implement the carousels, tabs, accordions, in-page links, and search present in the captured content. Use a local carousel library only if necessary; ensure slide content remains visible before initialization and avoid duplicate active instances.
+- [x] Replace external service embeds/forms with their captured destination links as needed. Preserve video poster/thumbnail presentation and a clear external video link. Remove any remaining dependency on WordPress AJAX.
+- [x] Compare representative desktop and mobile screenshots against the original. Exercise controls with pointer and keyboard; confirm that removing entrance animations does not hide content and that mobile menus fit the viewport.
+- [x] Correct observed visual or behavior differences and document any unavailable resources or external service limitations.
+- [x] Commit the runtime and visual adjustments.
 
 ### Task 4: Validate and document the deliverable
 
@@ -96,10 +96,10 @@
 - `pnpm verify` exits nonzero for missing expected routes, missing local assets, broken internal page links, retained accessibility widget resources, or unintended remote rendering dependencies. External navigation destinations are allowed.
 - README commands match `package.json` exactly.
 
-- [ ] Extend `scripts/verify.mjs` to inspect generated HTML and CSS: links, encoded paths, fragments, CSS URLs, responsive image candidates, remote asset references, widget signatures, forms targeting WordPress, and excluded draft/admin records. Report a concise summary and actionable failures.
-- [ ] Run `node --test`, `pnpm build`, and `pnpm verify`. Resolve failures and repeat only the affected checks after changes.
-- [ ] Serve with `pnpm dev`; check HTTP responses for representative nested/dated routes and inspect the browser's requests for unintended remote resources. Confirm the static build and ordinary page rendering do not require network access.
-- [ ] Complete browser checks of mobile navigation, dropdowns, carousels, tabs, accordions, and search wherever present. Record verification evidence and any limitations in the README.
-- [ ] Write README setup, Node/pnpm requirements, `pnpm install`, `pnpm dev`, `pnpm build`, `pnpm verify`, output location, provenance, local/external scope, and one-time import instructions.
-- [ ] Review the final diff against the approved spec; run final checks after any corrections and commit only relevant source files.
-- [ ] Report the local preview command, build/verification outcome, and any material gaps. Do not deploy.
+- [x] Extend `scripts/verify.mjs` to inspect generated HTML and CSS: links, encoded paths, fragments, CSS URLs, responsive image candidates, remote asset references, widget signatures, forms targeting WordPress, and excluded draft/admin records. Report a concise summary and actionable failures.
+- [x] Run `node --test`, `pnpm build`, and `pnpm verify`. Resolve failures and repeat only the affected checks after changes.
+- [x] Serve with `pnpm dev`; check HTTP responses for representative nested/dated routes and inspect the browser's requests for unintended remote resources. Confirm the static build and ordinary page rendering do not require network access.
+- [x] Complete browser checks of mobile navigation, dropdowns, carousels, tabs, accordions, and search wherever present. Record verification evidence and any limitations in the README.
+- [x] Write README setup, Node/pnpm requirements, `pnpm install`, `pnpm dev`, `pnpm build`, `pnpm verify`, output location, provenance, local/external scope, and one-time import instructions.
+- [x] Review the final diff against the approved spec; run final checks after any corrections and commit only relevant source files.
+- [x] Report the local preview command, build/verification outcome, and any material gaps. Do not deploy.
