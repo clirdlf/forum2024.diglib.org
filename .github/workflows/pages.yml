@@ -26,6 +26,10 @@ jobs:
           cache: true
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      - name: Install browser for smoke tests
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Browser and accessibility smoke tests
+        run: pnpm test:browser
       - name: Check repository-path hosting
         run: pnpm check:pages
 

@@ -1,0 +1,23 @@
+{
+  "imageDescriptions": {
+    "CLIRT-11": "Conference attendees gathering in a lobby outside the ballroom.",
+    "CLIRT-66": "Conference attendees seated at round tables in a large, sunlit hall.",
+    "CLIRT-67": "Attendees talking around a table in the conference hall.",
+    "CLIRT-77": "An attendee smiling while holding a plate in the conference hall.",
+    "CLIRT-38": "Two presenters standing behind laptops and speaking into a microphone.",
+    "CLIRT-15": "An attendee asking a question at a standing microphone.",
+    "CLIRM-135": "Two attendees discussing their work at a conference table.",
+    "CLIRM-42": "An attendee smiling in a busy conference gathering space.",
+    "CLIRM-50": "Attendees talking together around a conference table.",
+    "GHphoto": "Germaine Halegoua",
+    "TIND_logo_blue_artboard": "TIND",
+    "programschedulescreenshot": "View the virtual DLF Forum program schedule in ConfTool"
+  },
+  "colorReplacements": {
+    "#467ff7": "#2458c5",
+    "#2977b7": "#246da9"
+  },
+  "backgroundImageLabels": {
+    "GHphoto": "Germaine Halegoua"
+  }
+}

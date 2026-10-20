@@ -1,28 +1,21 @@
 import { load } from 'cheerio';
 
-// Descriptions reviewed against the retained photographs; do not infer alt text from filenames.
-const descriptions = {
-  'CLIRT-11': 'Conference attendees gathering in a lobby outside the ballroom.',
-  'CLIRT-66': 'Conference attendees seated at round tables in a large, sunlit hall.',
-  'CLIRT-67': 'Attendees talking around a table in the conference hall.',
-  'CLIRT-77': 'An attendee smiling while holding a plate in the conference hall.',
-  'CLIRT-38': 'Two presenters standing behind laptops and speaking into a microphone.',
-  'CLIRT-15': 'An attendee asking a question at a standing microphone.',
-  'CLIRM-135': 'Two attendees discussing their work at a conference table.',
-  'CLIRM-42': 'An attendee smiling in a busy conference gathering space.',
-  'CLIRM-50': 'Attendees talking together around a conference table.',
-  GHphoto: 'Germaine Halegoua',
-  TIND_logo_blue_artboard: 'TIND',
-  programschedulescreenshot: 'View the virtual DLF Forum program schedule in ConfTool',
-};
+import { readFileSync } from 'node:fs';
+// Read editable overrides on each build so watch mode never reuses a cached JSON import.
+const readOverrides = () =>
+  JSON.parse(
+    readFileSync(new URL('../../data/accessibility-overrides.json', import.meta.url), 'utf8'),
+  );
 
-export function accessibleCss(css) {
+export function accessibleCss(css, overrides = readOverrides()) {
   // Preserve the palette while meeting AA contrast for cream/white text on blue.
-  return css.replace(/#467ff7\b/gi, '#2458c5').replace(/#2977b7\b/gi, '#246da9');
+  return css.replace(
+    /#[a-f0-9]{6}\b/gi,
+    (color) => overrides.colorReplacements[color.toLowerCase()] || color,
+  );
 }
 
-export function accessibleHtml(html) {
-  const $ = load(html);
+function correctLandmarks($) {
   const main = $('main,[role="main"]').first().length
     ? $('main,[role="main"]').first()
     : $('#content').first();
@@ -40,6 +33,9 @@ export function accessibleHtml(html) {
       location + (nav.hasClass('elementor-nav-menu--dropdown') ? ' mobile' : ''),
     );
   });
+}
+
+function correctContentsControls($) {
   $('.elementor-widget-table-of-contents').each((_, e) => {
     const widget = $(e),
       toggles = widget.find('.elementor-toc__toggle-button');
@@ -52,6 +48,9 @@ export function accessibleHtml(html) {
       .removeAttr('role tabindex')
       .removeClass('elementor-toc__toggle-button--expand elementor-toc__toggle-button--collapse');
   });
+}
+
+function correctTabs($) {
   const assignedIds = new Set(
     $('[id]')
       .filter((_, e) => !$(e).closest('.elementor-tabs').length)
@@ -94,6 +93,9 @@ export function accessibleHtml(html) {
         .removeAttr('role aria-selected');
     });
   });
+}
+
+function correctDisclosures($) {
   $('.elementor-toggle .elementor-tab-title,.elementor-accordion .elementor-tab-title').each(
     (i, e) => {
       const title = $(e);
@@ -117,6 +119,9 @@ export function accessibleHtml(html) {
         .attr('aria-labelledby', button.attr('id'));
     },
   );
+}
+
+function correctHeadings($) {
   // Keep the original tags for captured CSS selectors, correcting the accessible outline.
   let previous = 0,
     hasTitle = false,
@@ -140,9 +145,16 @@ export function accessibleHtml(html) {
     }
     previous = level;
   });
+}
+
+function correctArticleLists($) {
   $('[role="list"] > article[role="listitem"]').each((_, e) => {
     $(e).removeAttr('role').wrap('<div role="listitem"></div>');
   });
+}
+
+function correctImageDescriptions($, overrides) {
+  const descriptions = overrides.imageDescriptions;
   $('img').each((_, e) => {
     const img = $(e),
       name = (img.attr('src') || '')
@@ -155,7 +167,14 @@ export function accessibleHtml(html) {
     )
       img.attr('alt', descriptions[name]);
   });
-  $('[role="img"][aria-label="GHphoto"]').attr('aria-label', 'Germaine Halegoua');
+  $('[role="img"][aria-label]').each((_, e) => {
+    const node = $(e),
+      label = overrides.backgroundImageLabels[node.attr('aria-label')];
+    if (label) node.attr('aria-label', label);
+  });
+}
+
+function labelCarousels($) {
   $('.elementor-image-carousel-wrapper,.elementor-main-swiper').each((i, e) => {
     const carousel = $(e);
     carousel.attr(
@@ -167,6 +186,9 @@ export function accessibleHtml(html) {
           : `Sponsor logos ${i}`,
     );
   });
+}
+
+function correctNavigation($) {
   // Links retain their destinations; separate native buttons disclose their submenus.
   $('.elementor-widget-nav-menu .menu-item-has-children').each((i, e) => {
     const item = $(e),
@@ -183,6 +205,9 @@ export function accessibleHtml(html) {
     button.attr('aria-controls', id).attr('aria-label', `Show ${link.text().trim()} submenu`);
     link.after(button);
   });
+}
+
+function deduplicateIds($) {
   // Repeated unreferenced IDs from pasted Word/Google Docs text need no shared identity.
   const ids = new Set();
   $('[id]').each((_, e) => {
@@ -195,7 +220,26 @@ export function accessibleHtml(html) {
     }
     ids.add(node.attr('id'));
   });
-  $('[style]').each((_, e) => $(e).attr('style', accessibleCss($(e).attr('style'))));
-  $('style').each((_, e) => $(e).text(accessibleCss($(e).text())));
+}
+
+function correctInlineStyles($, overrides) {
+  $('[style]').each((_, e) => $(e).attr('style', accessibleCss($(e).attr('style'), overrides)));
+  $('style').each((_, e) => $(e).text(accessibleCss($(e).text(), overrides)));
+}
+
+export function accessibleHtml(html) {
+  const $ = load(html),
+    overrides = readOverrides();
+  correctLandmarks($);
+  correctContentsControls($);
+  correctTabs($);
+  correctDisclosures($);
+  correctHeadings($);
+  correctArticleLists($);
+  correctImageDescriptions($, overrides);
+  labelCarousels($);
+  correctNavigation($);
+  deduplicateIds($);
+  correctInlineStyles($, overrides);
   return $.html();
 }

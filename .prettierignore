@@ -8,3 +8,7 @@ src/assets/site/
 pnpm-lock.yaml
 
 src/assets/images/
+
+dist/
+playwright-report/
+test-results/

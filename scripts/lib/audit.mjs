@@ -1,7 +1,8 @@
+import { auditAccessibility } from './accessibility-audit.mjs';
 import { readFile, stat, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
-export async function auditSite(root, manifest, { pathPrefix = '/' } = {}) {
+export async function auditSite(root, manifest, { pathPrefix = '/', accessibility = false } = {}) {
   pathPrefix =
     '/' +
     pathPrefix.split('/').filter(Boolean).join('/') +
@@ -97,6 +98,8 @@ export async function auditSite(root, manifest, { pathPrefix = '/' } = {}) {
     const relative = '/' + path.relative(root, file).split(path.sep).join('/');
     const base =
       'http://archive.local' + pathPrefix + relative.slice(1).replace(/index\.html$/, '');
+    if (accessibility)
+      for (const issue of auditAccessibility(html)) errors.add(`${issue} in ${relative}`);
     if (/pojo-a11y-toolbar|plugins\/pojo-accessibility|plugins\/wp-accessibility/.test(html))
       errors.add('Accessibility widget in ' + relative);
     if ($('iframe').length) errors.add('Automatically loaded external frame in ' + relative);

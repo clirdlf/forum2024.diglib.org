@@ -1,3 +1,4 @@
+import { outputDirectory } from './lib/build-output.mjs';
 import { loadImageManifest, validateImageManifest } from './lib/images.mjs';
 import { readFile } from 'node:fs/promises';
 import { auditSite } from './lib/audit.mjs';
@@ -6,8 +7,9 @@ const retainedImages = await validateImageManifest(await loadImageManifest());
 const manifest = JSON.parse(await readFile('data/archive-manifest.json', 'utf8'));
 const source = readInventory(await readFile('data/dlfforum2024.WordPress.2026-10-20.xml', 'utf8'));
 const missing = source.documents.filter((d) => !manifest.documents.some((m) => m.path === d.path));
-const result = await auditSite('_site', manifest, {
+const result = await auditSite(outputDirectory(), manifest, {
   pathPrefix: process.env.SITE_PATH_PREFIX || '/',
+  accessibility: true,
 });
 result.errors.push(...missing.map((d) => 'Published source document omitted: ' + d.path));
 console.log(

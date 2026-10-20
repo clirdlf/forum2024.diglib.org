@@ -172,6 +172,9 @@ importers:
       '@11ty/eleventy-img':
         specifier: ^7.0.0
         version: 7.0.0
+      '@playwright/test':
+        specifier: ^1.64.1
+        version: 1.64.1
       axe-core:
         specifier: ^4.14.0
         version: 4.14.0
@@ -181,6 +184,9 @@ importers:
       fast-xml-parser:
         specifier: ^5.3.0
         version: 5.11.2
+      fflate:
+        specifier: ^0.8.3
+        version: 0.8.3
       linkedom:
         specifier: ^0.18.13
         version: 0.18.13
@@ -418,6 +424,11 @@ packages:
 
   '@nodable/entities@3.1.0':
     resolution: {integrity: sha512-LsS/DjHr+uDM647Gru/cA8+J3a3HfhttwCKLyuoyN7yXTFCxKBtSgMQBvrW9yNPa2/zDRUNuGPaH5QUFoa4arQ==}
+
+  '@playwright/test@1.64.1':
+    resolution: {integrity: sha512-IaYGml/nSOiZWROfPtuIL7neuu9qDOZ3TNvNljUIrhDMxiGTgPjzj/g9p9RxpS2tSepPDRY+UwAaEeiKtUvIAg==}
+    engines: {node: '>=20'}
+    hasBin: true
 
   '@rgrove/parse-xml@4.2.3':
     resolution: {integrity: sha512-Jhlb+0zYez1T1yXUQs3F1qAtFuJljBVNdy9TKmLDauAXkxsOXopKYOyQ5Wm6SvP3fycav0GviX4Y15WWhGetMw==}
@@ -674,6 +685,9 @@ packages:
       picomatch:
         optional: true
 
+  fflate@0.8.3:
+    resolution: {integrity: sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==}
+
   filesize@10.1.6:
     resolution: {integrity: sha512-sJslQKU2uM33qH5nqewAwVB2QgR6w1aMNsYUp3aN5rMRyXEwJGmZvaWzeJFNTOXWlHQyBFCWrdj3fV/fsTOX8w==}
     engines: {node: '>= 10.4.0'}
@@ -883,6 +897,16 @@ packages:
   picomatch@4.0.7:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
+
+  playwright-core@1.64.1:
+    resolution: {integrity: sha512-BC4s8y6SEVA6Q1rSxZTto8hI1KUI3xXlHGZgvGqP4IqPdI/a6FX9H29IDNz7vKo9l21b6LfYosScPL6M3xxyDQ==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  playwright@1.64.1:
+    resolution: {integrity: sha512-HCrVhHr5QQuwYoswEUGTb7gGp522yflbv/ST8nF4sFWGuLjQCt17Q/EubpGGSNKYn1tsTCPZxqHhHCfVURu7UA==}
+    engines: {node: '>=20'}
+    hasBin: true
 
   please-upgrade-node@3.2.0:
     resolution: {integrity: sha512-gQR3WpIgNIKwBMVLkpMUeR3e1/E1y42bqDQZfql+kDeXd8COYfM8PQA4X6y7a8u9Ua9FHmsrrmirW2vHs45hWg==}
@@ -1287,6 +1311,10 @@ snapshots:
 
   '@nodable/entities@3.1.0': {}
 
+  '@playwright/test@1.64.1':
+    dependencies:
+      playwright: 1.64.1
+
   '@rgrove/parse-xml@4.2.3': {}
 
   '@sindresorhus/slugify@2.2.1':
@@ -1528,6 +1556,8 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.7
 
+  fflate@0.8.3: {}
+
   filesize@10.1.6: {}
 
   finalhandler@1.3.2:
@@ -1720,6 +1750,12 @@ snapshots:
   path-expression-matcher@1.6.2: {}
 
   picomatch@4.0.7: {}
+
+  playwright-core@1.64.1: {}
+
+  playwright@1.64.1:
+    dependencies:
+      playwright-core: 1.64.1
 
   please-upgrade-node@3.2.0:
     dependencies:

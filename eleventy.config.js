@@ -1,15 +1,12 @@
-import { accessibleHtml, accessibleCss } from './scripts/lib/accessibility.mjs';
-import {
-  loadImageManifest,
-  validateImageManifest,
-  optimizeHtml,
-  optimizeCss,
-} from './scripts/lib/images.mjs';
+import { renderHtml } from './scripts/lib/render.mjs';
+import { outputDirectory } from './scripts/lib/build-output.mjs';
+import { accessibleCss } from './scripts/lib/accessibility.mjs';
+import { loadImageManifest, validateImageManifest, optimizeCss } from './scripts/lib/images.mjs';
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { assembleBody } from './scripts/lib/content.mjs';
 import { searchIndex } from './scripts/lib/search.mjs';
-import { normalizePrefix, prefixHtml, writePrefixedCss } from './scripts/lib/paths.mjs';
+import { normalizePrefix, writePrefixedCss } from './scripts/lib/paths.mjs';
 
 export default async function (eleventyConfig) {
   const pathPrefix = normalizePrefix(process.env.SITE_PATH_PREFIX);
@@ -24,20 +21,23 @@ export default async function (eleventyConfig) {
     'src/CNAME': 'CNAME',
     'src/.nojekyll': '.nojekyll',
   });
-  eleventyConfig.watchIgnores.add('./data/**');
+  for (const ignored of [
+    './data/capture/**',
+    './data/*.xml',
+    './data/archive-manifest.json',
+    './data/image-optimization.json',
+  ])
+    eleventyConfig.watchIgnores.add(ignored);
+  eleventyConfig.addWatchTarget('data/accessibility-overrides.json');
   eleventyConfig.watchIgnores.add('./.cache/**');
   eleventyConfig.addWatchTarget('src/content/');
   eleventyConfig.addWatchTarget('src/_includes/');
   eleventyConfig.addFilter('withSharedLayout', assembleBody);
   eleventyConfig.addFilter('searchIndex', (docs) => searchIndex(docs, pathPrefix));
-  eleventyConfig.addTransform('accessibility', function (content) {
-    return this.page.outputPath?.endsWith('.html') ? accessibleHtml(content) : content;
-  });
-  eleventyConfig.addTransform('retained-images', function (content) {
-    return this.page.outputPath?.endsWith('.html') ? optimizeHtml(content, imageManifest) : content;
-  });
-  eleventyConfig.addTransform('pages-prefix', function (content) {
-    return this.page.outputPath?.endsWith('.html') ? prefixHtml(content, pathPrefix) : content;
+  eleventyConfig.addTransform('archive-output', function (content) {
+    return this.page.outputPath?.endsWith('.html')
+      ? renderHtml(content, { imageManifest, pathPrefix })
+      : content;
   });
   eleventyConfig.on('eleventy.after', async ({ dir }) => {
     async function rewrite(sourceDirectory, outputDirectory) {
@@ -63,7 +63,7 @@ export default async function (eleventyConfig) {
     pathPrefix,
     dir: {
       input: 'src',
-      output: '_site',
+      output: outputDirectory(),
       includes: '_includes',
       data: '_data',
     },

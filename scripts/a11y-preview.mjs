@@ -1,7 +1,8 @@
+import { outputDirectory } from './lib/build-output.mjs';
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
-const root = path.resolve('_site');
+const root = outputDirectory();
 const runner = await readFile('scripts/a11y/run.js');
 const prefix = (process.env.SITE_PATH_PREFIX || '/').replace(/\/$/, '');
 http
