@@ -90,7 +90,9 @@ test('carousel keyboard focus stops rotation until Play is requested', async ({ 
   await expect(outside).toBeFocused();
   await page.clock.fastForward(30000);
   await expect(current).toHaveAttribute('aria-label', label);
-  await carousel.getByRole('button', { name: 'Play slideshow', exact: true }).click();
+  // A pointer click would leave hover-pause active even after keyboard focus moves away.
+  await carousel.getByRole('button', { name: 'Play slideshow', exact: true }).press('Enter');
+  await expect(carousel.getByRole('button').first()).toHaveAccessibleName('Pause slideshow');
   await outside.focus();
   await expect(outside).toBeFocused();
   await page.clock.fastForward(30000);
