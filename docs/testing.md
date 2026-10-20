@@ -17,7 +17,7 @@ pnpm exec playwright install chromium
 pnpm test:browser
 ```
 
-The 14 Chromium cases cover desktop and mobile navigation/Escape/focus return, guide tabs and mobile disclosures, contents controls, FAQ activation, persistent carousel pause, and axe scans on representative pages. The runner starts its own server on port 8083 with isolated output; no existing development server is reused. CI installs Chromium and runs these tests before deployment or a tagged snapshot. Traces from failing local runs are retained in `test-results/`.
+The 16 Chromium cases cover desktop and mobile navigation/Escape/focus return, dropdown label wrapping and viewport bounds at five screen widths, guide tabs and mobile disclosures, contents controls, FAQ activation, persistent carousel pause, and axe scans on representative pages. The runner starts its own server on port 8083 with isolated output; no existing development server is reused. CI installs Chromium and runs these tests before deployment or a tagged snapshot. Traces from failing local runs are retained in `test-results/`.
 
 Run `pnpm exec playwright install chromium` again after upgrading Playwright; browser binaries are version-specific. An “Executable does not exist” error means the matching browser is not installed. CI installs the matching Chromium before executing the suite.
 

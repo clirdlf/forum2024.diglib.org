@@ -2,6 +2,40 @@ import { test, expect } from '@playwright/test';
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 
+test('dropdown labels fit their panels and stay inside the viewport', async ({
+  page,
+  isMobile,
+}) => {
+  for (const width of isMobile ? [390, 320] : [1280, 1024, 768]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/');
+    await page.evaluate(() => document.fonts.ready);
+    const header = page.locator('.elementor-location-header');
+    if (isMobile)
+      await header.getByRole('button', { name: 'Menu Toggle', exact: true }).press('Enter');
+    for (const toggle of await header.locator('.archive-submenu-toggle:visible').all()) {
+      await toggle.press('Enter');
+      const submenu = page.locator('#' + (await toggle.getAttribute('aria-controls')));
+      await expect(submenu).toBeVisible();
+      const layout = await submenu.evaluate((panel) => {
+        const bounds = panel.getBoundingClientRect();
+        return {
+          left: bounds.left,
+          right: bounds.right,
+          viewport: document.documentElement.clientWidth,
+          overflowing: [...panel.querySelectorAll('a')]
+            .filter((link) => link.scrollWidth > link.clientWidth + 1)
+            .map((link) => link.textContent.trim()),
+        };
+      });
+      expect(layout.overflowing, `labels at ${width}px`).toEqual([]);
+      expect(layout.left).toBeGreaterThanOrEqual(0);
+      expect(layout.right).toBeLessThanOrEqual(layout.viewport);
+      await toggle.press('Escape');
+    }
+  }
+});
+
 test('submenu buttons preserve links and return keyboard focus on Escape', async ({
   page,
   isMobile,

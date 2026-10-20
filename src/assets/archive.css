@@ -21,9 +21,24 @@ html {
   left: 0;
   top: 100%;
   min-width: 16rem;
+  width: 22rem !important;
+  max-width: calc(100vw - 40px);
   z-index: 100;
   display: none;
   margin: 0;
+}
+.elementor-nav-menu--main .menu-item:nth-last-child(-n + 2) > .sub-menu {
+  left: auto !important;
+  right: 0 !important;
+}
+.elementor-nav-menu--main .sub-menu a {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .elementor-nav-menu--main .sub-menu {
+    width: 20rem !important;
+  }
 }
 .elementor-nav-menu--main .menu-item.archive-open > .sub-menu {
   display: block !important;
@@ -204,6 +219,8 @@ button.elementor-tab-mobile-title {
   padding-right: 36px !important;
 }
 .archive-submenu-toggle {
+  display: grid;
+  place-items: center;
   position: absolute;
   right: 0;
   top: 0;
@@ -218,6 +235,16 @@ button.elementor-tab-mobile-title {
   background: transparent;
   font: inherit;
   cursor: pointer;
+}
+.archive-submenu-toggle > span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  font-size: 0;
+  transform: rotate(45deg);
 }
 a.archive-service.elementor-button,
 a.archive-service.elementor-button:hover,
